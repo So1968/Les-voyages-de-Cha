@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÂ¨s privÃƒÂ© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã‚Â¨s privÃƒÆ’Ã‚Â© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -115,10 +115,11 @@ export default function Home() {
       <section id="offres" className="cha-offres-section">
         <div className="cha-offres-intro">
           <p className="cha-mini-title">Les offres</p>
-          <h2>Choisir le bon niveau d&rsquo;accompagnement.</h2>
+          <h2>Des voyages construits avec intention, pas des formules toutes faites.</h2>
           <p>
-            Cha construit des voyages personnalis&eacute;s selon votre rythme, vos envies
-            et le niveau de d&eacute;tail dont vous avez besoin.
+            Cha con&ccedil;oit des propositions sur mesure pour transformer une envie de d&eacute;part
+            en voyage clair, fluide et pr&ecirc;t &agrave; vivre. Chaque offre correspond &agrave; un niveau
+            d&rsquo;accompagnement diff&eacute;rent, selon votre projet, votre temps et votre besoin de d&eacute;tail.
           </p>
         </div>
 
