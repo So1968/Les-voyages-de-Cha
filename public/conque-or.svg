@@ -1,102 +1,57 @@
-<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="shellMain" x1="110" y1="20" x2="110" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#F4DFC2"/>
-      <stop offset="48%" stop-color="#EBCB9D"/>
-      <stop offset="100%" stop-color="#D9B07B"/>
+    <linearGradient id="goldStroke" x1="160" y1="28" x2="160" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F4D9A8"/>
+      <stop offset="45%" stop-color="#D8AA63"/>
+      <stop offset="100%" stop-color="#B8843D"/>
     </linearGradient>
-
-    <radialGradient id="shellLight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(110 112) rotate(90) scale(82 95)">
-      <stop offset="0%" stop-color="#FFF9F0" stop-opacity="0.95"/>
-      <stop offset="55%" stop-color="#F7E6CC" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#E1BE8C" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="ribLine" x1="110" y1="28" x2="110" y2="182" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#C98F54" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#B8793F" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#9F6A35" stop-opacity="0.18"/>
-    </linearGradient>
-
-    <linearGradient id="baseGold" x1="110" y1="160" x2="110" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#E3C190"/>
-      <stop offset="100%" stop-color="#C89459"/>
-    </linearGradient>
-
-    <radialGradient id="footLight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(110 184) rotate(90) scale(18 30)">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F4F0EB"/>
-    </radialGradient>
-
-    <filter id="shadow" x="20" y="18" width="180" height="190" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#8F6C46" flood-opacity="0.18"/>
-    </filter>
   </defs>
 
-  <g filter="url(#shadow)">
-    <!-- Ombre sol -->
-    <ellipse cx="110" cy="196" rx="44" ry="10" fill="#B8A18A" opacity="0.18"/>
+  <!-- contour externe -->
+  <path
+    d="M160 42
+       C149 44 135 48 122 57
+       C106 68 91 83 79 103
+       C66 124 59 146 58 167
+       C57 190 64 210 77 226
+       C90 243 110 254 135 259
+       L185 259
+       C210 254 230 243 243 226
+       C256 210 263 190 262 167
+       C261 146 254 124 241 103
+       C229 83 214 68 198 57
+       C185 48 171 44 160 42"
+    stroke="url(#goldStroke)"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 
-    <!-- Coquille principale -->
-    <path
-      d="M110 26
-         C100 28 88 33 77 42
-         C65 52 55 66 48 82
-         C42 97 40 114 41 128
-         C42 142 46 154 52 165
-         C60 179 74 188 92 191
-         L128 191
-         C146 188 160 179 168 165
-         C174 154 178 142 179 128
-         C180 114 178 97 172 82
-         C165 66 155 52 143 42
-         C132 33 120 28 110 26 Z"
-      fill="url(#shellMain)"
-    />
+  <!-- base centrale -->
+  <path
+    d="M144 259
+       C147 272 153 280 160 284
+       C167 280 173 272 176 259"
+    stroke="url(#goldStroke)"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 
-    <!-- Lumière douce -->
-    <path
-      d="M110 26
-         C100 28 88 33 77 42
-         C65 52 55 66 48 82
-         C42 97 40 114 41 128
-         C42 142 46 154 52 165
-         C60 179 74 188 92 191
-         L128 191
-         C146 188 160 179 168 165
-         C174 154 178 142 179 128
-         C180 114 178 97 172 82
-         C165 66 155 52 143 42
-         C132 33 120 28 110 26 Z"
-      fill="url(#shellLight)"
-    />
+  <!-- nervures -->
+  <path d="M160 54 L160 257" stroke="url(#goldStroke)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M148 56 C148 96 147 160 144 256" stroke="url(#goldStroke)" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M172 56 C172 96 173 160 176 256" stroke="url(#goldStroke)" stroke-width="3.8" stroke-linecap="round"/>
 
-    <!-- Base arrière -->
-    <path d="M78 188 C83 176 95 168 110 168 C125 168 137 176 142 188 L78 188 Z" fill="url(#baseGold)" opacity="0.95"/>
+  <path d="M136 60 C134 100 131 166 128 252" stroke="url(#goldStroke)" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M184 60 C186 100 189 166 192 252" stroke="url(#goldStroke)" stroke-width="3.4" stroke-linecap="round"/>
 
-    <!-- Pied blanc central -->
-    <ellipse cx="110" cy="186" rx="22" ry="14" fill="url(#footLight)"/>
+  <path d="M124 68 C118 106 112 172 108 245" stroke="url(#goldStroke)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M196 68 C202 106 208 172 212 245" stroke="url(#goldStroke)" stroke-width="3.2" stroke-linecap="round"/>
 
-    <!-- Nervures -->
-    <path d="M110 30 L110 184" stroke="url(#ribLine)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M101 32 C101 70 100 120 98 184" stroke="url(#ribLine)" stroke-width="3.2" stroke-linecap="round"/>
-    <path d="M119 32 C119 70 120 120 122 184" stroke="url(#ribLine)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M111 79 C101 116 94 177 88 235" stroke="url(#goldStroke)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M209 79 C219 116 226 177 232 235" stroke="url(#goldStroke)" stroke-width="3" stroke-linecap="round"/>
 
-    <path d="M92 36 C90 72 88 122 86 182" stroke="url(#ribLine)" stroke-width="3" stroke-linecap="round"/>
-    <path d="M128 36 C130 72 132 122 134 182" stroke="url(#ribLine)" stroke-width="3" stroke-linecap="round"/>
-
-    <path d="M82 42 C78 76 74 122 72 176" stroke="url(#ribLine)" stroke-width="2.8" stroke-linecap="round"/>
-    <path d="M138 42 C142 76 146 122 148 176" stroke="url(#ribLine)" stroke-width="2.8" stroke-linecap="round"/>
-
-    <path d="M71 50 C64 82 58 122 56 168" stroke="url(#ribLine)" stroke-width="2.6" stroke-linecap="round"/>
-    <path d="M149 50 C156 82 162 122 164 168" stroke="url(#ribLine)" stroke-width="2.6" stroke-linecap="round"/>
-
-    <path d="M61 61 C52 92 48 124 47 156" stroke="url(#ribLine)" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M159 61 C168 92 172 124 173 156" stroke="url(#ribLine)" stroke-width="2.4" stroke-linecap="round"/>
-
-    <path d="M53 74 C45 101 42 124 43 145" stroke="url(#ribLine)" stroke-width="2.2" stroke-linecap="round"/>
-    <path d="M167 74 C175 101 178 124 177 145" stroke="url(#ribLine)" stroke-width="2.2" stroke-linecap="round"/>
-  </g>
+  <path d="M98 95 C84 131 77 180 71 220" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M222 95 C236 131 243 180 249 220" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
 </svg>
