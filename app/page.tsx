@@ -125,21 +125,6 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="bureau" className="cha-section cha-bureau">
-        <div>
-          <p className="cha-mini-title">Le Bureau de Cha</p>
-          <h2>Un espace pour tout retrouver sans se disperser.</h2>
-        </div>
-        <div className="cha-tags">
-          <span>CRM clients</span>
-          <span>Dossiers voyage</span>
-          <span>Base destinations</span>
-          <span>Marketing</span>
-          <span>Traceur de temps</span>
-          <span>Focus et energie</span>
-        </div>
-      </section>
-
       <section id="contact" className="cha-band">
         Voyagez autrement, vivez intens&eacute;ment
       </section>
