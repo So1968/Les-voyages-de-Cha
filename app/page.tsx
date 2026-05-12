@@ -1,4 +1,4 @@
-﻿export default function Home() {
+export default function Home() {
   const logoPath = "/logo-cha.svg";
 
   return (
@@ -19,14 +19,14 @@
       </header>
 
       <section className="cha-title">
-        <p>3 inspirations pour voyager autrement</p>
+        <p>3 façons d’imaginer ton voyage</p>
         <h1>Les Voyages de Cha</h1>
       </section>
 
       <section id="templates" className="cha-templates">
         <article className="cha-card cha-card-photo-left">
-          <p className="cha-label">Template 1</p>
-          <p className="cha-sub">Accroche forte</p>
+          <p className="cha-label">Inspiration 1</p>
+          <p className="cha-sub">Se sentir ailleurs</p>
 
           <div className="cha-card-main">
             <h2>
@@ -43,8 +43,8 @@
         </article>
 
         <article className="cha-card cha-card-clean">
-          <p className="cha-label">Template 2</p>
-          <p className="cha-sub">Expertise simple</p>
+          <p className="cha-label">Inspiration 2</p>
+          <p className="cha-sub">Voyager autrement</p>
 
           <div className="cha-card-main">
             <h2>
@@ -77,8 +77,8 @@
         </article>
 
         <article className="cha-card cha-card-photo-right">
-          <p className="cha-label">Template 3</p>
-          <p className="cha-sub">Projection client</p>
+          <p className="cha-label">Inspiration 3</p>
+          <p className="cha-sub">Un voyage qui te ressemble</p>
 
           <div className="cha-inner">
             <h2>
