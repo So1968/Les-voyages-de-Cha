@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃ¨s privÃ© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÂ¨s privÃƒÂ© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -179,9 +179,10 @@ export default function Home() {
         <p className="cha-mini-title">Important &agrave; savoir</p>
         <h2>Cha ne r&eacute;serve pas &agrave; votre place.</h2>
         <p>
-          Elle vous remet une s&eacute;lection claire, personnalis&eacute;e et pr&ecirc;te &agrave; r&eacute;server,
-          avec les liens, contacts et recommandations utiles. Vous gardez la main
-          sur vos r&eacute;servations.
+          Cha vous remet une s&eacute;lection claire, personnalis&eacute;e et pr&ecirc;te &agrave; utiliser :
+          liens, contacts, adresses et recommandations. Les r&eacute;servations,
+          paiements, confirmations, modifications ou annulations sont ensuite
+          effectu&eacute;s directement par le client, en toute libert&eacute;.
         </p>
       </section>
 
