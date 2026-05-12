@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -115,55 +115,58 @@ export default function Home() {
       <section id="offres" className="cha-offres-section">
         <div className="cha-offres-intro">
           <p className="cha-mini-title">Les offres</p>
-          <h2>Des voyages construits avec intention, pas des formules toutes faites.</h2>
+          <h2>Trois fa&ccedil;ons de confier votre projet de voyage &agrave; Cha.</h2>
           <p>
-            Cha con&ccedil;oit des propositions sur mesure pour transformer une envie de d&eacute;part
-            en voyage clair, fluide et pr&ecirc;t &agrave; vivre. Chaque offre correspond &agrave; un niveau
-            d&rsquo;accompagnement diff&eacute;rent, selon votre projet, votre temps et votre besoin de d&eacute;tail.
+            Chaque formule correspond &agrave; un niveau d&rsquo;accompagnement clair :
+            de l&rsquo;escapade cibl&eacute;e au voyage plus complet, Cha transforme vos envies
+            en itin&eacute;raire construit, lisible et pr&ecirc;t &agrave; vivre.
           </p>
         </div>
 
         <div className="cha-offres-grid">
           <article className="cha-offre-card">
-            <p className="cha-offre-label">Pour une escapade courte</p>
+            <p className="cha-offre-label">Formule 01</p>
             <h3>&Eacute;vasion express</h3>
-            <p>
-              Une proposition claire pour partir quelques jours sans passer des heures
-              &agrave; chercher les bonnes adresses.
+            <p className="cha-offre-promise">Pour partir quelques jours avec une direction claire.</p>
+            <p className="cha-offre-emotion">
+              Cha cible l&rsquo;essentiel : un itin&eacute;raire coh&eacute;rent, des adresses choisies
+              et une vision simple de votre escapade, sans vous perdre dans des recherches interminables.
             </p>
-            <ul>
-              <li>2 &agrave; 5 jours</li>
-              <li>itin&eacute;raire personnalis&eacute;</li>
-              <li>PDF r&eacute;capitulatif</li>
-            </ul>
+            <div className="cha-offre-details">
+              <span>2 &agrave; 5 jours</span>
+              <span>itin&eacute;raire personnalis&eacute;</span>
+              <span>PDF clair, pratique et directement utilisable</span>
+            </div>
           </article>
 
           <article className="cha-offre-card featured">
-            <p className="cha-offre-label">Pour un voyage plus complet</p>
+            <p className="cha-offre-label">Formule signature</p>
             <h3>&Eacute;vasion +</h3>
-            <p>
-              Un accompagnement plus approfondi pour imaginer un voyage fluide,
-              immersif et vraiment adapt&eacute; &agrave; votre fa&ccedil;on de voyager.
+            <p className="cha-offre-promise">Pour construire un vrai voyage sur mesure.</p>
+            <p className="cha-offre-emotion">
+              Cha structure votre voyage dans le d&eacute;tail : rythme, &eacute;tapes, exp&eacute;riences,
+              bonnes adresses et rep&egrave;res utiles pour partir avec un projet solide et inspirant.
             </p>
-            <ul>
-              <li>5 jours et plus</li>
-              <li>carnet de voyage sur mesure</li>
-              <li>carte interactive selon formule</li>
-            </ul>
+            <div className="cha-offre-details">
+              <span>5 jours et plus</span>
+              <span>carnet de voyage personnalis&eacute;</span>
+              <span>carte interactive selon la formule choisie</span>
+            </div>
           </article>
 
           <article className="cha-offre-card">
-            <p className="cha-offre-label">Pour ajouter du vivant</p>
-            <h3>Options immersives</h3>
-            <p>
-              Des exp&eacute;riences choisies pour donner plus de profondeur au voyage :
-              rencontres, activit&eacute;s, lieux sensibles et adresses locales.
+            <p className="cha-offre-label">Options &agrave; composer</p>
+            <h3>Exp&eacute;riences immersives</h3>
+            <p className="cha-offre-promise">Pour ajouter du vivant, du local et du souvenir.</p>
+            <p className="cha-offre-emotion">
+              Cha enrichit votre voyage avec des exp&eacute;riences qui donnent du relief :
+              activit&eacute;s, rencontres, lieux sensibles, aventures douces et adresses qui restent.
             </p>
-            <ul>
-              <li>plong&eacute;e, danse, aventure douce</li>
-              <li>exp&eacute;riences locales</li>
-              <li>bonnes adresses cibl&eacute;es</li>
-            </ul>
+            <div className="cha-offre-details">
+              <span>plong&eacute;e, danse, aventure douce</span>
+              <span>exp&eacute;riences locales et culturelles</span>
+              <span>adresses cibl&eacute;es selon votre fa&ccedil;on de voyager</span>
+            </div>
           </article>
         </div>
 

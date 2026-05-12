@@ -428,7 +428,7 @@ img {
   }
 }
 /* =====================================================
-   RÃƒÆ’Ã‚Â©glage final : Bureau privÃƒÆ’Ã‚Â© derriÃƒÆ’Ã‚Â¨re le logo
+   RÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©glage final : Bureau privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© derriÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨re le logo
    ===================================================== */
 
 /* Le menu ne montre que les rubriques publiques */
@@ -443,7 +443,7 @@ img {
   display: none !important;
 }
 
-/* Le logo est la porte privÃƒÆ’Ã‚Â©e, mais sans indication visible */
+/* Le logo est la porte privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©e, mais sans indication visible */
 .cha-logo-wrap {
   width: 210px !important;
   display: flex !important;
@@ -462,7 +462,7 @@ img {
   object-fit: contain !important;
 }
 
-/* Header ÃƒÆ’Ã‚Â©quilibrÃƒÆ’Ã‚Â© */
+/* Header ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©quilibrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© */
 .cha-header {
   width: min(100%, 1360px) !important;
   height: 82px !important;
@@ -479,7 +479,7 @@ img {
   box-shadow: none !important;
 }
 
-/* Titre accueil ÃƒÆ’Ã‚Â  taille normale */
+/* Titre accueil ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  taille normale */
 .cha-title {
   width: min(100%, 1360px) !important;
   margin: 26px auto 38px !important;
@@ -490,7 +490,7 @@ img {
   line-height: 1.05 !important;
 }
 
-/* Trois blocs ÃƒÆ’Ã‚Â  bonne dimension */
+/* Trois blocs ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  bonne dimension */
 .cha-templates {
   width: min(100%, 1360px) !important;
   max-width: 1360px !important;
@@ -499,7 +499,7 @@ img {
   margin: 0 auto 92px !important;
 }
 
-/* Cartes plus grandes que la version mini, mais pas ÃƒÆ’Ã‚Â©normes */
+/* Cartes plus grandes que la version mini, mais pas ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©normes */
 .cha-card {
   min-height: 680px !important;
   padding: 42px 40px 34px !important;
@@ -526,13 +526,13 @@ img {
   width: min(100%, 1360px) !important;
 }
 
-/* SÃƒÆ’Ã‚Â©curitÃƒÆ’Ã‚Â© : pas de dÃƒÆ’Ã‚Â©bordement horizontal */
+/* SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©curitÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© : pas de dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©bordement horizontal */
 html,
 body {
   overflow-x: hidden !important;
 }
 /* =====================================================
-   Section Offres Ã¢â‚¬â€ version vitrine premium
+   Section Offres ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â version vitrine premium
    ===================================================== */
 
 .cha-offres-section {
@@ -660,7 +660,7 @@ body {
   }
 }
 /* =====================================================
-   Offres â€” plus d'assurance, plus lisibles
+   Offres Ã¢â‚¬â€ plus d'assurance, plus lisibles
    ===================================================== */
 
 .cha-offres-section {
@@ -771,7 +771,7 @@ body {
   }
 }
 /* =====================================================
-   Ajustement fin section Offres : assurance sans débordement
+   Ajustement fin section Offres : assurance sans dÃ©bordement
    ===================================================== */
 
 .cha-offres-section {
@@ -780,7 +780,7 @@ body {
   overflow: visible !important;
 }
 
-/* Le titre reste affirmé, mais ne sort plus de la zone */
+/* Le titre reste affirmÃ©, mais ne sort plus de la zone */
 .cha-offres-intro h2 {
   font-size: clamp(36px, 3.35vw, 52px) !important;
   line-height: 1.08 !important;
@@ -789,7 +789,7 @@ body {
   margin-bottom: 22px !important;
 }
 
-/* Le paragraphe d'intro garde de la présence sans étouffer */
+/* Le paragraphe d'intro garde de la prÃ©sence sans Ã©touffer */
 .cha-offres-intro p {
   font-size: 17px !important;
   line-height: 1.78 !important;
@@ -802,7 +802,7 @@ body {
   padding: 36px 34px !important;
 }
 
-/* Titres de cartes assurés mais moins massifs */
+/* Titres de cartes assurÃ©s mais moins massifs */
 .cha-offre-card h3 {
   font-size: clamp(32px, 2.45vw, 42px) !important;
   line-height: 1.04 !important;
@@ -818,7 +818,7 @@ body {
   font-size: 15.5px !important;
 }
 
-/* Rappel plus professionnel et plus assumé */
+/* Rappel plus professionnel et plus assumÃ© */
 .cha-offres-note {
   max-width: 1040px !important;
   margin-top: 44px !important;
@@ -837,4 +837,179 @@ body {
 .cha-offres-note p {
   font-size: 16.5px !important;
   line-height: 1.78 !important;
+}
+/* =====================================================
+   Offres — coeur commercial du site
+   ===================================================== */
+
+.cha-offres-section {
+  width: min(100%, 1420px) !important;
+  margin: 0 auto 62px !important;
+  padding: 72px 58px 62px !important;
+  background:
+    radial-gradient(circle at top left, rgba(255, 247, 235, 0.82), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(158, 198, 214, 0.12), transparent 28%),
+    linear-gradient(180deg, rgba(251, 243, 234, 0.94), rgba(235, 217, 196, 0.82)) !important;
+  box-shadow: 0 24px 56px rgba(72, 52, 33, 0.11) !important;
+}
+
+.cha-offres-intro {
+  max-width: 980px !important;
+  margin: 0 auto 56px !important;
+  text-align: center !important;
+}
+
+.cha-offres-intro h2 {
+  max-width: 960px !important;
+  margin: 12px auto 22px !important;
+  font-size: clamp(44px, 4.4vw, 68px) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.06em !important;
+}
+
+.cha-offres-intro p {
+  max-width: 920px !important;
+  margin: 0 auto !important;
+  font-size: 18.5px !important;
+  line-height: 1.75 !important;
+}
+
+.cha-offres-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 34px !important;
+  align-items: stretch !important;
+}
+
+.cha-offre-card {
+  position: relative !important;
+  min-height: 540px !important;
+  padding: 44px 40px 38px !important;
+  background:
+    linear-gradient(180deg, rgba(252, 244, 235, 0.98), rgba(241, 226, 209, 0.94)) !important;
+  box-shadow: 0 20px 42px rgba(72, 52, 33, 0.10) !important;
+  border: 1px solid rgba(30, 58, 71, 0.06) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cha-offre-card.featured {
+  transform: translateY(-14px);
+  background:
+    linear-gradient(180deg, rgba(249, 238, 224, 1), rgba(229, 208, 184, 0.96)) !important;
+  border: 3px solid rgba(158, 198, 214, 0.62) !important;
+  box-shadow: 0 28px 58px rgba(72, 52, 33, 0.14) !important;
+}
+
+.cha-offre-card.featured::before {
+  content: "Le plus complet";
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(158, 198, 214, 0.34);
+  color: var(--bleu);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cha-offre-label {
+  margin: 0 0 18px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.18em !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  color: rgba(30, 58, 71, 0.70) !important;
+}
+
+.cha-offre-card h3 {
+  margin: 0 0 18px !important;
+  font-size: clamp(38px, 3vw, 54px) !important;
+  line-height: 0.98 !important;
+  letter-spacing: -0.065em !important;
+}
+
+.cha-offre-promise {
+  margin: 0 0 20px !important;
+  font-size: 20px !important;
+  line-height: 1.35 !important;
+  font-weight: 850 !important;
+  color: var(--bleu) !important;
+}
+
+.cha-offre-emotion {
+  margin: 0 !important;
+  font-size: 17px !important;
+  line-height: 1.78 !important;
+}
+
+.cha-offre-details {
+  margin-top: auto !important;
+  padding-top: 38px !important;
+  display: grid !important;
+  gap: 15px !important;
+}
+
+.cha-offre-details span {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  font-size: 16.5px !important;
+  line-height: 1.45 !important;
+  font-weight: 700 !important;
+}
+
+.cha-offre-details span::before {
+  content: "";
+  width: 24px !important;
+  height: 3px !important;
+  margin-top: 0.65em;
+  flex: 0 0 24px !important;
+  border-radius: 999px;
+  background: var(--bleu-clair);
+}
+
+.cha-offres-note {
+  max-width: 1080px !important;
+  margin: 52px auto 0 !important;
+  padding: 34px 40px !important;
+  background: rgba(255, 252, 248, 0.72) !important;
+  border-left: 5px solid var(--bleu-clair) !important;
+  box-shadow: 0 16px 32px rgba(72, 52, 33, 0.06) !important;
+}
+
+.cha-offres-note strong {
+  display: block !important;
+  margin-bottom: 10px !important;
+  font-size: 24px !important;
+  line-height: 1.25 !important;
+}
+
+.cha-offres-note p {
+  margin: 0 !important;
+  font-size: 17px !important;
+  line-height: 1.78 !important;
+}
+
+@media (max-width: 1080px) {
+  .cha-offres-section {
+    padding: 46px 26px !important;
+  }
+
+  .cha-offres-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cha-offre-card,
+  .cha-offre-card.featured {
+    min-height: auto !important;
+    transform: none !important;
+  }
+
+  .cha-offre-card h3 {
+    font-size: clamp(36px, 7vw, 48px) !important;
+  }
 }
