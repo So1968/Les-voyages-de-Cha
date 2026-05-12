@@ -34,7 +34,7 @@ a {
 }
 
 .cha-header {
-  max-width: 1120px;
+  max-width: 1080px;
   margin: 0 auto 22px;
   height: 76px;
   display: flex;
@@ -76,7 +76,7 @@ a {
 }
 
 .cha-title {
-  max-width: 1120px;
+  max-width: 1080px;
   margin: 0 auto 22px;
   text-align: center;
 }
@@ -101,7 +101,7 @@ a {
 }
 
 .cha-templates {
-  max-width: 1120px;
+  max-width: 1080px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -110,7 +110,7 @@ a {
 
 .cha-card {
   position: relative;
-  min-height: 560px;
+  min-height: 520px;
   padding: 26px;
   background: rgba(248, 241, 233, 0.94);
   box-shadow: var(--ombre);
@@ -119,7 +119,7 @@ a {
 }
 
 .cha-card::after {
-  content: "Ã¢â„¢Â¡";
+  content: "ÃƒÂ¢Ã¢â€žÂ¢Ã‚Â¡";
   position: absolute;
   top: 28px;
   right: 28px;
@@ -351,7 +351,7 @@ a {
     min-height: 600px;
   }
 }
-/* Ajustement accueil : plus centré, moins débordant */
+/* Ajustement accueil : plus centrÃ©, moins dÃ©bordant */
 .cha-title {
   max-width: 980px;
 }
@@ -398,14 +398,56 @@ a {
   .cha-header,
   .cha-title,
   .cha-templates {
-    max-width: 1040px;
+    max-width: 1080px;
   }
 
   .cha-card {
-    min-height: 540px;
+    min-height: 520px;
   }
 
   .cha-card h2 {
     font-size: clamp(24px, 2vw, 32px);
   }
+}
+/* Correction parasite encodage : suppression du petit coeur décoratif */
+.cha-card::after {
+  content: "";
+  display: none;
+}
+/* Correction centrage global */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.cha-page {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cha-header,
+.cha-title,
+.cha-templates,
+.cha-section,
+.cha-note {
+  width: min(100%, 1080px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cha-templates {
+  justify-content: center;
+}
+
+.cha-card {
+  min-width: 0;
+}
+
+.cha-band {
+  width: calc(100% + 48px);
 }
