@@ -583,7 +583,7 @@ header a[href="/bureau"] img {
   box-shadow: none !important;
   filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
 }
-/* Entrée Bureau : coquille bijou, sans rond */
+/* EntrÃ©e Bureau : coquille bijou, sans rond */
 .cha-shell-entry,
 .cha-conque-entry,
 header a[href="/bureau"] {
@@ -622,4 +622,128 @@ header a[href="/bureau"] img {
   min-height: 78px !important;
   height: 78px !important;
   overflow: visible !important;
+}
+/* =====================================================
+   Header harmonisé : entrée Bureau sous le logo
+   ===================================================== */
+
+/* On neutralise totalement l'ancienne porte coquille */
+.cha-shell-entry,
+.cha-conque-entry,
+header a[href="/bureau"] img[src*="conque"],
+header a[href="/bureau"] img[src*="conque-or"] {
+  display: none !important;
+}
+
+/* Zone logo + petite entrée */
+.cha-logo-area {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.cha-logo-wrap {
+  width: auto !important;
+  display: flex;
+  align-items: center;
+}
+
+.cha-logo {
+  max-width: 154px !important;
+  max-height: 54px !important;
+  object-fit: contain;
+}
+
+/* Entrée Bureau discrète, sous le logo */
+.cha-bureau-entry {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  padding: 3px 0 0;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(30, 58, 71, 0.66);
+  border-bottom: 1px solid rgba(30, 58, 71, 0.22);
+}
+
+.cha-bureau-entry:hover {
+  color: var(--bleu);
+  border-bottom-color: var(--bleu);
+}
+
+/* Header calmé et équilibré */
+.cha-header {
+  height: 76px !important;
+  min-height: 76px !important;
+  max-width: 1320px !important;
+  padding: 10px 22px !important;
+  align-items: center !important;
+  background: rgba(250, 243, 234, 0.82) !important;
+}
+
+/* Le menu reprend sa place au centre */
+.cha-nav {
+  flex: 1;
+  justify-content: center;
+  gap: 38px;
+}
+
+/* Le bouton appel découverte devient moins tache bleue */
+.cha-rdv {
+  background: rgba(158, 198, 214, 0.54) !important;
+  color: var(--bleu) !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(30, 58, 71, 0.08);
+  padding: 11px 20px !important;
+}
+
+/* La zone action ne contient plus que l'appel */
+.cha-header-actions {
+  width: 210px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Accueil : retour à une dimension plus posée */
+.cha-title h1 {
+  font-size: clamp(54px, 5.2vw, 78px) !important;
+}
+
+.cha-templates {
+  max-width: 1280px !important;
+  width: min(100%, 1280px) !important;
+  gap: 24px !important;
+}
+
+.cha-card {
+  min-height: 620px !important;
+  padding: 38px 36px 32px !important;
+}
+
+.cha-inner {
+  min-height: 480px !important;
+}
+
+@media (max-width: 760px) {
+  .cha-logo-area {
+    width: 100%;
+    align-items: center;
+  }
+
+  .cha-header-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cha-bureau-entry {
+    margin-left: 0;
+  }
 }
