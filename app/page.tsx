@@ -15,7 +15,7 @@ export default function Home() {
           <a href="#bureau">Bureau de Cha</a>
         </nav>
 
-        <a href="#contact" className="cha-rdv">Appel d&eacute;couverte</a>
+        <a href="/bureau" className="cha-conque-entry" aria-label="Entrer dans le Bureau de Cha"><img src="/conque-cha.svg" alt="" /></a>
       </header>
 
       <section className="cha-title">
