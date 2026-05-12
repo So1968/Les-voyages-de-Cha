@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã‚Â¨s privÃƒÆ’Ã‚Â© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -168,11 +168,13 @@ export default function Home() {
         </div>
 
         <div className="cha-offres-note">
-          <strong>Cha pr&eacute;pare le terrain, vous gardez la main.</strong>
-          <span>
-            Les liens, contacts et recommandations vous sont transmis pour que vous
-            puissiez effectuer vos r&eacute;servations vous-m&ecirc;me, en toute libert&eacute;.
-          </span>
+          <p>
+            <strong>Cha con&ccedil;oit votre voyage, vous restez libre de le r&eacute;server.</strong>
+            Son r&ocirc;le est de construire un itin&eacute;raire clair, personnalis&eacute; et pr&ecirc;t &agrave; utiliser :
+            liens, contacts, adresses, activit&eacute;s et recommandations cibl&eacute;es. Les r&eacute;servations,
+            paiements, confirmations, modifications ou annulations sont ensuite effectu&eacute;s directement
+            par le client, aupr&egrave;s des prestataires concern&eacute;s.
+          </p>
         </div>
       </section>
 
