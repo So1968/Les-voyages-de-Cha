@@ -3,8 +3,8 @@
   --bleu-clair: #9EC6D6;
   --vert-gris: #B7C4BE;
   --beige: #EDE2D5;
-  --fond: #F8F1E9;
-  --ivoire: #FFFBF6;
+  --fond: #EDE2D5;
+  --ivoire: #F8F1E9;
   --blanc: #FFFFFF;
   --ombre: 0 14px 34px rgba(30, 58, 71, 0.10);
 }
@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  background: var(--fond);
+  background: #EDE2D5;
   color: var(--bleu);
   font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -30,7 +30,7 @@ a {
   padding: 24px 24px 0;
   background:
     radial-gradient(circle at top left, rgba(158, 198, 214, 0.14), transparent 24%),
-    linear-gradient(180deg, #fbf6ef 0%, #ede2d5 100%);
+    linear-gradient(180deg, #F3E8DC 0%, #EDE2D5 55%, #E7D7C7 100%);
 }
 
 .cha-header {
@@ -41,7 +41,7 @@ a {
   align-items: center;
   gap: 28px;
   padding: 10px 18px;
-  background: rgba(255, 251, 246, 0.78);
+  background: rgba(248, 241, 233, 0.82);
   border: 1px solid rgba(30, 58, 71, 0.08);
   box-shadow: 0 8px 24px rgba(30, 58, 71, 0.05);
 }
@@ -112,14 +112,14 @@ a {
   position: relative;
   min-height: 640px;
   padding: 30px;
-  background: rgba(255, 251, 246, 0.92);
+  background: rgba(248, 241, 233, 0.94);
   box-shadow: var(--ombre);
   overflow: hidden;
   border: 1px solid rgba(30, 58, 71, 0.06);
 }
 
 .cha-card::after {
-  content: "♡";
+  content: "â™¡";
   position: absolute;
   top: 28px;
   right: 28px;
@@ -239,7 +239,7 @@ a {
   min-height: 500px;
   margin-top: 34px;
   padding: 30px;
-  background: rgba(255, 251, 246, 0.94);
+  background: rgba(248, 241, 233, 0.94);
   box-shadow: 0 10px 25px rgba(30, 58, 71, 0.08);
 }
 
@@ -267,7 +267,7 @@ a {
   max-width: 1060px;
   margin: 46px auto 0;
   padding: 30px;
-  background: rgba(255, 251, 246, 0.78);
+  background: rgba(248, 241, 233, 0.82);
   box-shadow: var(--ombre);
 }
 
@@ -297,7 +297,7 @@ a {
 
 .cha-offres article {
   padding: 22px;
-  background: white;
+  background: #FFF8F1;
 }
 
 .cha-offres h3 {
@@ -318,7 +318,7 @@ a {
 .cha-tags span {
   padding: 11px 14px;
   border-radius: 999px;
-  background: white;
+  background: #FFF8F1;
   font-weight: 600;
   font-size: 14px;
 }
