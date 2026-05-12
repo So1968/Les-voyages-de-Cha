@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/" className="cha-logo-wrap" aria-label="Accueil Les Voyages de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="Accès privé au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -10,7 +10,6 @@ export default function Home() {
           <a href="#accueil">Accueil</a>
           <a href="#approche">Approche</a>
           <a href="#offres">Offres</a>
-          <a href="/bureau">Bureau</a>
         </nav>
 
         <div className="cha-header-actions">

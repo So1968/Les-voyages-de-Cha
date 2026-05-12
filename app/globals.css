@@ -427,3 +427,107 @@ img {
     min-height: 560px;
   }
 }
+/* =====================================================
+   Réglage final : Bureau privé derrière le logo
+   ===================================================== */
+
+/* Le menu ne montre que les rubriques publiques */
+.cha-nav {
+  gap: 42px !important;
+}
+
+.cha-nav a[href="/bureau"],
+.cha-bureau-entry,
+.cha-shell-entry,
+.cha-conque-entry {
+  display: none !important;
+}
+
+/* Le logo est la porte privée, mais sans indication visible */
+.cha-logo-wrap {
+  width: 210px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  cursor: pointer;
+}
+
+.cha-logo-wrap:hover {
+  opacity: 0.92;
+}
+
+.cha-logo {
+  max-width: 158px !important;
+  max-height: 56px !important;
+  object-fit: contain !important;
+}
+
+/* Header équilibré */
+.cha-header {
+  width: min(100%, 1360px) !important;
+  height: 82px !important;
+  min-height: 82px !important;
+  margin: 0 auto 26px !important;
+  padding: 12px 26px !important;
+  align-items: center !important;
+}
+
+/* Bouton plus doux, moins tache bleue */
+.cha-rdv {
+  background: rgba(158, 198, 214, 0.46) !important;
+  border: 1px solid rgba(30, 58, 71, 0.08) !important;
+  box-shadow: none !important;
+}
+
+/* Titre accueil à taille normale */
+.cha-title {
+  width: min(100%, 1360px) !important;
+  margin: 26px auto 38px !important;
+}
+
+.cha-title h1 {
+  font-size: clamp(60px, 5.8vw, 92px) !important;
+  line-height: 1.05 !important;
+}
+
+/* Trois blocs à bonne dimension */
+.cha-templates {
+  width: min(100%, 1360px) !important;
+  max-width: 1360px !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 28px !important;
+  margin: 0 auto 92px !important;
+}
+
+/* Cartes plus grandes que la version mini, mais pas énormes */
+.cha-card {
+  min-height: 680px !important;
+  padding: 42px 40px 34px !important;
+}
+
+.cha-card h2 {
+  font-size: clamp(30px, 2.25vw, 39px) !important;
+  line-height: 1.22 !important;
+}
+
+.cha-card-main {
+  margin-top: 70px !important;
+}
+
+.cha-inner {
+  min-height: 540px !important;
+  margin-top: 38px !important;
+  padding: 38px 36px !important;
+}
+
+/* Les sections suivantes restent larges et propres */
+.cha-section,
+.cha-note {
+  width: min(100%, 1360px) !important;
+}
+
+/* Sécurité : pas de débordement horizontal */
+html,
+body {
+  overflow-x: hidden !important;
+}
