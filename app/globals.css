@@ -1,15 +1,10 @@
 :root {
   --bleu: #1E3A47;
   --bleu-clair: #9EC6D6;
-  --vert-gris: #B7C4BE;
-  --beige-page: #ECDECf;
-  --beige-fond: #F1E5D8;
-  --beige-carte: #F5EBDF;
-  --beige-clair: #FBF4EC;
-  --ivoire: #FFFCF8;
-  --or-1: #C39A56;
-  --or-2: #E5C98C;
-  --ombre: 0 18px 36px rgba(89, 67, 44, 0.08);
+  --beige-page: #E8D6C2;
+  --beige-carte: #F4E8DA;
+  --beige-clair: #FBF3EA;
+  --ombre: 0 18px 38px rgba(72, 52, 33, 0.09);
 }
 
 * {
@@ -18,16 +13,20 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
   color: var(--bleu);
   font-family: "Segoe UI", Arial, sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(255, 248, 238, 0.95), transparent 24%),
-    radial-gradient(circle at top right, rgba(233, 214, 186, 0.30), transparent 22%),
-    linear-gradient(180deg, #E9D7C2 0%, #ECDECf 28%, #E7D1BC 100%);
+    radial-gradient(circle at 12% 8%, rgba(255, 246, 233, 0.78), transparent 26%),
+    radial-gradient(circle at 84% 12%, rgba(217, 185, 150, 0.18), transparent 28%),
+    linear-gradient(180deg, #F0DDC8 0%, #E8D6C2 55%, #DFC5AA 100%);
 }
 
 a {
@@ -41,31 +40,31 @@ img {
 
 .cha-page {
   min-height: 100vh;
-  padding: 26px 22px 0;
+  padding: 26px 24px 0;
 }
 
 .cha-header {
-  max-width: 1320px;
-  margin: 0 auto 26px;
-  min-height: 78px;
+  width: min(100%, 1320px);
+  height: 78px;
+  margin: 0 auto 24px;
   display: flex;
   align-items: center;
   gap: 28px;
-  padding: 14px 22px;
-  background: rgba(250, 243, 234, 0.78);
-  border: 1px solid rgba(30, 58, 71, 0.05);
-  box-shadow: 0 8px 24px rgba(56, 42, 26, 0.04);
+  padding: 12px 24px;
+  background: rgba(251, 243, 234, 0.84);
+  box-shadow: 0 8px 24px rgba(72, 52, 33, 0.04);
 }
 
 .cha-logo-wrap {
-  width: 190px;
+  width: 210px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
 }
 
 .cha-logo {
-  max-width: 150px;
-  max-height: 54px;
+  max-width: 158px;
+  max-height: 56px;
   object-fit: contain;
 }
 
@@ -74,125 +73,121 @@ img {
   display: flex;
   justify-content: center;
   gap: 34px;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.cha-nav a[href="/bureau"] {
+  font-weight: 850;
 }
 
 .cha-header-actions {
+  width: 210px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  gap: 14px;
 }
 
 .cha-rdv {
   padding: 12px 22px;
   border-radius: 999px;
-  background: var(--bleu-clair);
+  background: rgba(158, 198, 214, 0.42);
+  border: 1px solid rgba(30, 58, 71, 0.08);
   color: var(--bleu);
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 750;
   white-space: nowrap;
 }
 
-.cha-shell-entry {
-  width: 56px;
-  height: 56px;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(145deg, #F8EACE 0%, #EAD5A4 50%, #D1AC6A 100%);
-  border: 1px solid rgba(160, 126, 69, 0.22);
-  box-shadow: 0 10px 22px rgba(154, 118, 57, 0.14);
-  flex-shrink: 0;
-}
-
-.cha-shell-entry img {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-}
-
 .cha-title {
-  max-width: 1320px;
-  margin: 22px auto 34px;
+  width: min(100%, 1320px);
+  margin: 22px auto 36px;
   text-align: center;
 }
 
 .cha-title h1 {
   margin: 0;
-  font-family: "Segoe Script", "Snell Roundhand", "Brush Script MT", cursive;
-  font-size: clamp(60px, 6vw, 86px);
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(54px, 5.2vw, 78px);
   font-weight: 400;
   line-height: 1.05;
   color: var(--bleu);
 }
 
 .cha-templates {
-  max-width: 1320px;
-  margin: 0 auto 42px;
+  width: min(100%, 1320px);
+  margin: 0 auto 92px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 26px;
   align-items: stretch;
-  justify-content: center;
+}
+
+.cha-templates::after {
+  content: "";
+  grid-column: 1 / -1;
+  display: block;
+  width: 220px;
+  height: 2px;
+  margin: 48px auto 0;
+  border-radius: 999px;
+  background: rgba(158, 198, 214, 0.72);
 }
 
 .cha-card {
   position: relative;
-  min-height: 760px;
-  padding: 44px 40px 34px;
+  min-height: 620px;
+  padding: 40px 38px 32px;
   background: var(--beige-carte);
-  border: none !important;
-  outline: none !important;
   box-shadow: var(--ombre);
   overflow: hidden;
+  border: 0;
 }
 
 .cha-card-photo-left {
   background:
-    linear-gradient(180deg, rgba(245, 235, 223, 0.95) 0%, rgba(245, 235, 223, 0.78) 38%, rgba(245, 235, 223, 0.18) 60%),
+    linear-gradient(180deg, rgba(244,232,218,0.96) 0%, rgba(244,232,218,0.80) 42%, rgba(244,232,218,0.18) 100%),
     url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1100&q=85");
   background-size: cover;
   background-position: center bottom;
-  border: none !important;
 }
 
 .cha-card-clean {
-  background: #F4EADC;
+  background: #F4E8DA;
 }
 
 .cha-card-photo-right {
   background:
-    linear-gradient(180deg, rgba(242, 233, 220, 0.18) 0%, rgba(242, 233, 220, 0.18) 100%),
+    linear-gradient(180deg, rgba(244,232,218,0.16), rgba(244,232,218,0.16)),
     url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1100&q=85");
   background-size: cover;
   background-position: center;
 }
 
 .cha-card-main {
-  margin-top: 34px;
+  margin-top: 58px;
 }
 
 .cha-card h2 {
   margin: 0;
-  font-size: clamp(32px, 2.5vw, 42px);
-  line-height: 1.18;
-  letter-spacing: -0.04em;
+  font-size: clamp(28px, 2.15vw, 36px);
+  line-height: 1.22;
+  letter-spacing: -0.035em;
   color: var(--bleu);
 }
 
 .cha-card h2 span {
   display: block;
   margin-top: 10px;
-  font-family: "Segoe Script", "Snell Roundhand", "Brush Script MT", cursive;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
   font-size: 0.78em;
   font-weight: 400;
-  letter-spacing: -0.01em;
+  line-height: 1.35;
 }
 
 .cha-line {
   width: 72%;
-  height: 3px;
+  height: 2px;
   margin-top: 18px;
   background: var(--bleu-clair);
   border-radius: 999px;
@@ -200,31 +195,27 @@ img {
 
 .cha-card-bottom {
   position: absolute;
-  left: 40px;
-  right: 40px;
-  bottom: 28px;
+  left: 38px;
+  right: 38px;
+  bottom: 30px;
   text-align: center;
 }
 
-.cha-card-bottom img {
-  max-width: 96px;
-  max-height: 52px;
-  margin: 0 auto;
+.cha-card-bottom img,
+.cha-inner img {
+  max-width: 100px;
+  max-height: 54px;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .cha-card-bottom p {
   margin: 12px 0 0;
-  font-size: 15px;
-}
-
-.cha-card-bottom.center {
-  left: 0;
-  right: 0;
+  font-size: 14px;
 }
 
 .cha-expertise {
-  margin-top: 36px;
+  margin-top: 34px;
   display: grid;
   gap: 20px;
 }
@@ -246,9 +237,7 @@ img {
   border: 2px solid var(--bleu-clair);
   border-radius: 12px;
   color: var(--bleu-clair);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1;
+  font-weight: 800;
 }
 
 .cha-expertise p {
@@ -260,21 +249,14 @@ img {
 .cha-expertise strong {
   display: block;
   margin-bottom: 4px;
-  color: var(--bleu);
 }
 
 .cha-inner {
-  min-height: 620px;
-  margin-top: 20px;
-  padding: 40px 38px;
-  background: rgba(245, 235, 223, 0.92);
+  min-height: 500px;
+  margin-top: 30px;
+  padding: 36px 34px;
+  background: rgba(244, 232, 218, 0.92);
   box-shadow: 0 10px 26px rgba(45, 37, 28, 0.08);
-}
-
-.cha-inner img {
-  max-width: 96px;
-  max-height: 52px;
-  object-fit: contain;
 }
 
 .cha-projection {
@@ -287,17 +269,17 @@ img {
 
 .cha-hand {
   margin: 28px 0 24px;
-  font-family: "Segoe Script", "Snell Roundhand", "Brush Script MT", cursive;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
   font-size: 26px;
   line-height: 1.4;
 }
 
 .cha-section,
 .cha-note {
-  max-width: 1320px;
+  width: min(100%, 1320px);
   margin: 0 auto 42px;
-  padding: 34px 28px;
-  background: rgba(248, 241, 232, 0.85);
+  padding: 34px 30px;
+  background: rgba(251, 243, 234, 0.82);
   box-shadow: var(--ombre);
 }
 
@@ -313,16 +295,15 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .cha-section h2,
 .cha-note h2 {
   margin: 8px 0 0;
-  font-size: clamp(34px, 4vw, 58px);
+  font-size: clamp(34px, 4vw, 54px);
   line-height: 1.08;
   letter-spacing: -0.04em;
-  color: var(--bleu);
 }
 
 .cha-section p,
@@ -337,7 +318,7 @@ img {
 
 .cha-offres article {
   padding: 20px 18px;
-  background: rgba(245, 235, 223, 0.9);
+  background: rgba(244, 232, 218, 0.90);
 }
 
 .cha-offres h3 {
@@ -347,11 +328,11 @@ img {
 
 .cha-note {
   background:
-    linear-gradient(90deg, rgba(174, 205, 218, 0.18), rgba(248, 241, 232, 0.92));
+    linear-gradient(90deg, rgba(158, 198, 214, 0.16), rgba(251, 243, 234, 0.88));
 }
 
 .cha-band {
-  margin: 0 -22px 0;
+  margin: 0 -24px;
   padding: 18px;
   background: var(--bleu);
   color: white;
@@ -359,7 +340,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.22em;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .bureau-page {
@@ -367,6 +348,7 @@ img {
   padding: 40px 20px;
   display: grid;
   place-items: center;
+  color: var(--bleu);
   background:
     radial-gradient(circle at top center, rgba(255, 249, 240, 0.95), transparent 24%),
     linear-gradient(180deg, #EAD8C2 0%, #E6D0B9 100%);
@@ -381,35 +363,18 @@ img {
   text-align: center;
 }
 
-.bureau-shell {
-  width: 94px;
-  height: 94px;
-  margin: 0 auto 18px;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(145deg, #F8EACE 0%, #EAD5A4 50%, #D1AC6A 100%);
-  box-shadow: 0 10px 22px rgba(154, 118, 57, 0.14);
-}
-
-.bureau-shell img {
-  width: 48px;
-  height: 48px;
-}
-
 .bureau-kicker {
   margin: 0 0 10px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .bureau-card h1 {
   margin: 0 0 14px;
   font-size: clamp(34px, 4vw, 54px);
   line-height: 1.08;
-  color: var(--bleu);
 }
 
 .bureau-text {
@@ -430,18 +395,26 @@ img {
 .bureau-link {
   padding: 12px 20px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
-  font-weight: 700;
+  background: rgba(255, 255, 255, 0.70);
+  font-weight: 750;
 }
 
 @media (max-width: 1080px) {
-  .cha-nav {
-    gap: 18px;
-    font-size: 13px;
+  .cha-header {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .cha-header {
-    gap: 16px;
+  .cha-logo-wrap,
+  .cha-header-actions {
+    width: auto;
+  }
+
+  .cha-nav {
+    order: 3;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .cha-templates,
@@ -450,346 +423,7 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .cha-card,
-  .cha-inner {
-    min-height: auto;
-  }
-}
-
-@media (max-width: 760px) {
-  .cha-header {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cha-logo-wrap {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .cha-nav {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .cha-header-actions {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .cha-title h1 {
-    font-size: 52px;
-  }
-
   .cha-card {
-    padding: 34px 26px 28px;
+    min-height: 560px;
   }
-
-  .cha-card-bottom {
-    left: 26px;
-    right: 26px;
-  }
-}
-
-/* === CORRECTIF CONQUE === */
-header a:has(img[src*="conque-or.svg"]),
-header button:has(img[src*="conque-or.svg"]) {
-  width: auto !important;
-  height: auto !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
-  padding: 0 !important;
-  margin-left: 18px !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-header a:has(img[src*="conque-or.svg"]) img,
-header button:has(img[src*="conque-or.svg"]) img {
-  width: 72px !important;
-  height: 72px !important;
-  display: block !important;
-  object-fit: contain !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  filter: drop-shadow(0 2px 8px rgba(184, 132, 61, 0.16));
-}
-
-header a:has(img[src*="conque-or.svg"]):hover,
-header button:has(img[src*="conque-or.svg"]):hover {
-  transform: translateY(-1px);
-  opacity: 0.96;
-}
-/* === FIN CORRECTIF CONQUE === */
-
-/* Coquille minimaliste : sans rond, plus lisible */
-.cha-shell-entry,
-.cha-conque-entry,
-header a[href="/bureau"] {
-  width: 90px !important;
-  height: 90px !important;
-  padding: 0 !important;
-  margin-left: 18px !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-.cha-shell-entry img,
-.cha-conque-entry img,
-header a[href="/bureau"] img {
-  width: 84px !important;
-  height: 84px !important;
-  object-fit: contain !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
-}
-/* Coquille minimaliste : sans rond, plus lisible */
-.cha-shell-entry,
-.cha-conque-entry,
-header a[href="/bureau"] {
-  width: 90px !important;
-  height: 90px !important;
-  padding: 0 !important;
-  margin-left: 18px !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-.cha-shell-entry img,
-.cha-conque-entry img,
-header a[href="/bureau"] img {
-  width: 84px !important;
-  height: 84px !important;
-  object-fit: contain !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
-}
-/* EntrÃƒÂ©e Bureau : coquille bijou, sans rond */
-.cha-shell-entry,
-.cha-conque-entry,
-header a[href="/bureau"] {
-  width: 78px !important;
-  height: 64px !important;
-  min-width: 78px !important;
-  min-height: 64px !important;
-  padding: 0 !important;
-  margin-left: 14px !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  display: grid !important;
-  place-items: center !important;
-  overflow: visible !important;
-}
-
-.cha-shell-entry img,
-.cha-conque-entry img,
-header a[href="/bureau"] img {
-  width: 76px !important;
-  height: 76px !important;
-  max-width: 76px !important;
-  max-height: 76px !important;
-  object-fit: contain !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  filter: drop-shadow(0 4px 9px rgba(120, 78, 28, 0.18));
-}
-
-/* Header : la coquille ne doit pas agrandir l'accueil */
-.cha-header {
-  min-height: 78px !important;
-  height: 78px !important;
-  overflow: visible !important;
-}
-/* =====================================================
-   Header harmonisÃ© : entrÃ©e Bureau sous le logo
-   ===================================================== */
-
-/* On neutralise totalement l'ancienne porte coquille */
-.cha-shell-entry,
-.cha-conque-entry,
-header a[href="/bureau"] img[src*="conque"],
-header a[href="/bureau"] img[src*="conque-or"] {
-  display: none !important;
-}
-
-/* Zone logo + petite entrÃ©e */
-.cha-logo-area {
-  width: 210px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 4px;
-  flex-shrink: 0;
-}
-
-.cha-logo-wrap {
-  width: auto !important;
-  display: flex;
-  align-items: center;
-}
-
-.cha-logo {
-  max-width: 154px !important;
-  max-height: 54px !important;
-  object-fit: contain;
-}
-
-/* EntrÃ©e Bureau discrÃ¨te, sous le logo */
-.cha-bureau-entry {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 4px;
-  padding: 3px 0 0;
-  font-size: 11px;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(30, 58, 71, 0.66);
-  border-bottom: 1px solid rgba(30, 58, 71, 0.22);
-}
-
-.cha-bureau-entry:hover {
-  color: var(--bleu);
-  border-bottom-color: var(--bleu);
-}
-
-/* Header calmÃ© et Ã©quilibrÃ© */
-.cha-header {
-  height: 76px !important;
-  min-height: 76px !important;
-  max-width: 1320px !important;
-  padding: 10px 22px !important;
-  align-items: center !important;
-  background: rgba(250, 243, 234, 0.82) !important;
-}
-
-/* Le menu reprend sa place au centre */
-.cha-nav {
-  flex: 1;
-  justify-content: center;
-  gap: 38px;
-}
-
-/* Le bouton appel dÃ©couverte devient moins tache bleue */
-.cha-rdv {
-  background: rgba(158, 198, 214, 0.54) !important;
-  color: var(--bleu) !important;
-  box-shadow: none !important;
-  border: 1px solid rgba(30, 58, 71, 0.08);
-  padding: 11px 20px !important;
-}
-
-/* La zone action ne contient plus que l'appel */
-.cha-header-actions {
-  width: 210px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-/* Accueil : retour Ã  une dimension plus posÃ©e */
-.cha-title h1 {
-  font-size: clamp(54px, 5.2vw, 78px) !important;
-}
-
-.cha-templates {
-  max-width: 1280px !important;
-  width: min(100%, 1280px) !important;
-  gap: 24px !important;
-}
-
-.cha-card {
-  min-height: 620px !important;
-  padding: 38px 36px 32px !important;
-}
-
-.cha-inner {
-  min-height: 480px !important;
-}
-
-@media (max-width: 760px) {
-  .cha-logo-area {
-    width: 100%;
-    align-items: center;
-  }
-
-  .cha-header-actions {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .cha-bureau-entry {
-    margin-left: 0;
-  }
-}
-/* Header final : Bureau dans le menu, sans coquille */
-.cha-shell-entry,
-.cha-conque-entry,
-.cha-bureau-entry,
-header a[href="/bureau"] img[src*="conque"],
-header a[href="/bureau"] img[src*="conque-or"] {
-  display: none !important;
-}
-
-.cha-logo-wrap {
-  width: 190px !important;
-  display: flex !important;
-  align-items: center !important;
-  flex-shrink: 0 !important;
-}
-
-.cha-logo {
-  max-width: 154px !important;
-  max-height: 54px !important;
-  object-fit: contain !important;
-}
-
-.cha-nav {
-  flex: 1 !important;
-  display: flex !important;
-  justify-content: center !important;
-  gap: 34px !important;
-}
-
-.cha-nav a[href="/bureau"] {
-  font-weight: 800;
-}
-
-.cha-header-actions {
-  width: 190px !important;
-  display: flex !important;
-  justify-content: flex-end !important;
-  align-items: center !important;
-}
-
-.cha-rdv {
-  background: rgba(158, 198, 214, 0.52) !important;
-  color: var(--bleu) !important;
-  box-shadow: none !important;
-  border: 1px solid rgba(30, 58, 71, 0.08) !important;
 }

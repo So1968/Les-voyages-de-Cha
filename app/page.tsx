@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <div className="cha-logo-wrap">
+        <a href="/" className="cha-logo-wrap" aria-label="Accueil Les Voyages de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
-        </div>
+        </a>
 
         <nav className="cha-nav">
           <a href="#accueil">Accueil</a>
@@ -14,7 +14,7 @@ export default function Home() {
         </nav>
 
         <div className="cha-header-actions">
-          <a href="#contact" className="cha-rdv">Appel dÃƒÂ©couverte</a>
+          <a href="#contact" className="cha-rdv">Appel d&eacute;couverte</a>
         </div>
       </header>
 
@@ -26,7 +26,7 @@ export default function Home() {
         <article className="cha-card cha-card-photo-left">
           <div className="cha-card-main">
             <h2>
-              Tu nÃ¢â‚¬â„¢as pas besoin dÃ¢â‚¬â„¢aller loin
+              Tu n&rsquo;as pas besoin d&rsquo;aller loin
               <span>pour te sentir ailleurs.</span>
             </h2>
             <div className="cha-line" />
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="cha-card-main">
             <h2>
               Voyagez autrement,
-              <span>vivez intensÃƒÂ©ment.</span>
+              <span>vivez intens&eacute;ment.</span>
             </h2>
             <div className="cha-line" />
           </div>
@@ -51,8 +51,8 @@ export default function Home() {
             <div>
               <span>1</span>
               <p>
-                <strong>Des expÃƒÂ©riences locales</strong>
-                Rencontrer, ÃƒÂ©changer, comprendre.
+                <strong>Des exp&eacute;riences locales</strong>
+                Rencontrer, &eacute;changer, comprendre.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ export default function Home() {
               <span>2</span>
               <p>
                 <strong>Des voyages sur-mesure</strong>
-                PensÃƒÂ©s pour vous, dans les moindres dÃƒÂ©tails.
+                Pens&eacute;s pour vous, dans les moindres d&eacute;tails.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function Home() {
               <span>3</span>
               <p>
                 <strong>Une approche humaine</strong>
-                Ãƒâ‚¬ votre ÃƒÂ©coute, avant, pendant et aprÃƒÂ¨s le voyage.
+                &Agrave; votre &eacute;coute, avant, pendant et apr&egrave;s le voyage.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="cha-line" />
 
             <p className="cha-projection">
-              Un voyage conÃƒÂ§u
+              Un voyage con&ccedil;u
               <br />
               <strong>pour toi.</strong>
             </p>
@@ -102,46 +102,46 @@ export default function Home() {
 
       <section id="approche" className="cha-section cha-approche">
         <div>
-          <p className="cha-mini-title">LÃ¢â‚¬â„¢approche de Cha</p>
+          <p className="cha-mini-title">L&rsquo;approche de Cha</p>
           <h2>Doux, clair, humain. Jamais catalogue.</h2>
         </div>
 
         <p>
-          Cha imagine des voyages sur mesure, immersifs et ÃƒÂ©motionnels.
-          AprÃƒÂ¨s 16 ans comme chargÃƒÂ©e de patrimoine, elle garde une vraie
-          culture du conseil, de lÃ¢â‚¬â„¢ÃƒÂ©coute, de la relation client et du suivi.
+          Cha imagine des voyages sur mesure, immersifs et &eacute;motionnels.
+          Apr&egrave;s 16 ans comme charg&eacute;e de patrimoine, elle garde une vraie culture
+          du conseil, de l&rsquo;&eacute;coute, de la relation client et du suivi.
         </p>
       </section>
 
       <section id="offres" className="cha-section cha-offres">
         <article>
-          <h3>Ãƒâ€°vasion express</h3>
-          <p>2 ÃƒÂ  5 jours Ã‚Â· itinÃƒÂ©raire clair Ã‚Â· PDF rÃƒÂ©capitulatif.</p>
+          <h3>&Eacute;vasion express</h3>
+          <p>2 &agrave; 5 jours : itin&eacute;raire clair et PDF r&eacute;capitulatif.</p>
         </article>
 
         <article>
-          <h3>Ãƒâ€°vasion +</h3>
-          <p>5 jours et plus Ã‚Â· carnet PDF Ã‚Â· carte interactive selon formule.</p>
+          <h3>&Eacute;vasion +</h3>
+          <p>5 jours et plus : carnet PDF et carte interactive selon formule.</p>
         </article>
 
         <article>
           <h3>Options immersives</h3>
-          <p>PlongÃƒÂ©e, danse, expÃƒÂ©riences locales, bonnes adresses.</p>
+          <p>Plong&eacute;e, danse, exp&eacute;riences locales, bonnes adresses.</p>
         </article>
       </section>
 
       <section className="cha-note">
-        <p className="cha-mini-title">Important ÃƒÂ  savoir</p>
-        <h2>Cha ne rÃƒÂ©serve pas ÃƒÂ  votre place.</h2>
+        <p className="cha-mini-title">Important &agrave; savoir</p>
+        <h2>Cha ne r&eacute;serve pas &agrave; votre place.</h2>
         <p>
-          Elle vous remet une sÃƒÂ©lection claire, personnalisÃƒÂ©e et prÃƒÂªte ÃƒÂ  rÃƒÂ©server,
-          avec les liens, contacts et recommandations utiles.
-          Vous gardez la main sur vos rÃƒÂ©servations.
+          Elle vous remet une s&eacute;lection claire, personnalis&eacute;e et pr&ecirc;te &agrave; r&eacute;server,
+          avec les liens, contacts et recommandations utiles. Vous gardez la main
+          sur vos r&eacute;servations.
         </p>
       </section>
 
       <section id="contact" className="cha-band">
-        Voyagez autrement, vivez intensÃƒÂ©ment
+        Voyagez autrement, vivez intens&eacute;ment
       </section>
     </main>
   );
