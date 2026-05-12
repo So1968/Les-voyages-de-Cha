@@ -583,3 +583,43 @@ header a[href="/bureau"] img {
   box-shadow: none !important;
   filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
 }
+/* Entrée Bureau : coquille bijou, sans rond */
+.cha-shell-entry,
+.cha-conque-entry,
+header a[href="/bureau"] {
+  width: 78px !important;
+  height: 64px !important;
+  min-width: 78px !important;
+  min-height: 64px !important;
+  padding: 0 !important;
+  margin-left: 14px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  display: grid !important;
+  place-items: center !important;
+  overflow: visible !important;
+}
+
+.cha-shell-entry img,
+.cha-conque-entry img,
+header a[href="/bureau"] img {
+  width: 76px !important;
+  height: 76px !important;
+  max-width: 76px !important;
+  max-height: 76px !important;
+  object-fit: contain !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  filter: drop-shadow(0 4px 9px rgba(120, 78, 28, 0.18));
+}
+
+/* Header : la coquille ne doit pas agrandir l'accueil */
+.cha-header {
+  min-height: 78px !important;
+  height: 78px !important;
+  overflow: visible !important;
+}
