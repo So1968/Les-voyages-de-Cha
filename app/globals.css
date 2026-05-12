@@ -119,7 +119,7 @@ a {
 }
 
 .cha-card::after {
-  content: "ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢Ãƒâ€šÃ‚Â¡";
+  content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡";
   position: absolute;
   top: 28px;
   right: 28px;
@@ -351,7 +351,7 @@ a {
     min-height: 600px;
   }
 }
-/* Ajustement accueil : plus centrÃƒÂ©, moins dÃƒÂ©bordant */
+/* Ajustement accueil : plus centrÃƒÆ’Ã‚Â©, moins dÃƒÆ’Ã‚Â©bordant */
 .cha-title {
   max-width: 980px;
 }
@@ -409,7 +409,7 @@ a {
     font-size: clamp(24px, 2vw, 32px);
   }
 }
-/* Correction parasite encodage : suppression du petit coeur dÃ©coratif */
+/* Correction parasite encodage : suppression du petit coeur dÃƒÂ©coratif */
 .cha-card::after {
   content: "";
   display: none;
@@ -461,7 +461,7 @@ body {
   margin-top: 0;
 }
 
-/* Petit séparateur doux avant la suite */
+/* Petit sÃ©parateur doux avant la suite */
 .cha-templates::after {
   content: "";
   display: block;
@@ -480,5 +480,161 @@ body {
 
   .cha-templates::after {
     margin-top: 28px;
+  }
+}
+/* =====================================================
+   Ajustement accueil : 3 blocs centrés, plus respirants
+   ===================================================== */
+
+/* La page garde une vraie respiration autour du contenu */
+.cha-page {
+  align-items: center;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* Header et titre alignés avec la largeur des blocs */
+.cha-header,
+.cha-title,
+.cha-templates {
+  width: min(100%, 1240px);
+  max-width: 1240px;
+}
+
+/* Les trois blocs sont centrés et mieux répartis */
+.cha-templates {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 86px;
+}
+
+/* Respiration visible sous les trois blocs, dans l'accueil */
+.cha-templates::after {
+  content: "";
+  grid-column: 1 / -1;
+  display: block;
+  width: 220px;
+  height: 3px;
+  margin: 42px auto 0;
+  border-radius: 999px;
+  background: rgba(158, 198, 214, 0.78);
+}
+
+/* Cartes plus harmonieuses : moins hautes, mais plus larges */
+.cha-card {
+  min-height: 560px;
+  padding: 34px 34px 30px;
+}
+
+/* Le texte principal descend moins bas et respire mieux */
+.cha-card-main {
+  margin-top: 50px;
+}
+
+/* Titres moins massifs pour éviter l'effet fourre-tout */
+.cha-card h2 {
+  font-size: clamp(26px, 2vw, 34px);
+  line-height: 1.24;
+  letter-spacing: -0.035em;
+}
+
+/* La partie manuscrite reste douce mais moins envahissante */
+.cha-card h2 span {
+  font-size: 0.82em;
+  line-height: 1.35;
+}
+
+/* Ligne graphique un peu plus fine et élégante */
+.cha-line {
+  width: 74%;
+  height: 2px;
+  margin-top: 18px;
+}
+
+/* Liste centrale plus lisible */
+.cha-expertise {
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.cha-expertise div {
+  grid-template-columns: 44px 1fr;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.cha-expertise span {
+  width: 36px;
+  height: 36px;
+  font-size: 19px;
+}
+
+.cha-expertise p {
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+/* Le panneau de droite doit moins remplir toute la carte */
+.cha-inner {
+  min-height: 430px;
+  padding: 28px;
+  margin-top: 30px;
+}
+
+/* Logos moins envahissants dans les cartes */
+.cha-card-bottom img,
+.cha-inner img {
+  max-width: 112px;
+  max-height: 50px;
+}
+
+/* En dessous des trois blocs, la suite commence plus bas */
+.cha-section:first-of-type {
+  margin-top: 0;
+}
+
+/* Ajustement écrans moyens */
+@media (max-width: 1400px) {
+  .cha-header,
+  .cha-title,
+  .cha-templates {
+    width: min(100%, 1160px);
+    max-width: 1160px;
+  }
+
+  .cha-card {
+    min-height: 540px;
+    padding: 30px;
+  }
+
+  .cha-card h2 {
+    font-size: clamp(24px, 1.9vw, 31px);
+  }
+}
+
+/* Sur mobile / petit écran, on empile proprement */
+@media (max-width: 1000px) {
+  .cha-page {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .cha-templates {
+    grid-template-columns: 1fr;
+    width: min(100%, 620px);
+    margin-bottom: 58px;
+  }
+
+  .cha-card {
+    min-height: 520px;
+  }
+
+  .cha-templates::after {
+    margin-top: 30px;
   }
 }
