@@ -1,0 +1,11 @@
+﻿<svg width="420" height="150" viewBox="0 0 420 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(20 25)">
+    <path d="M52 0C25 0 4 21 4 48c0 38 48 78 48 78s48-40 48-78C100 21 79 0 52 0z" fill="#1E3A47"/>
+    <circle cx="52" cy="48" r="36" fill="#9EC6D6"/>
+    <path d="M18 62c22-18 47-15 72 2v20H18V62z" fill="#FFFFFF" opacity=".92"/>
+    <path d="M31 46c8-14 22-16 32-6 10 10 20 5 27-1" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="38" cy="38" r="9" fill="#FFFFFF"/>
+  </g>
+  <text x="135" y="61" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="800" fill="#1E3A47">Les voyages</text>
+  <text x="138" y="113" font-family="Georgia, serif" font-size="54" font-style="italic" font-weight="700" fill="#1E3A47">de Cha</text>
+</svg>
