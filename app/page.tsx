@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="Accès privé au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃ¨s privÃ© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -112,21 +112,67 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="offres" className="cha-section cha-offres">
-        <article>
-          <h3>&Eacute;vasion express</h3>
-          <p>2 &agrave; 5 jours : itin&eacute;raire clair et PDF r&eacute;capitulatif.</p>
-        </article>
+      <section id="offres" className="cha-offres-section">
+        <div className="cha-offres-intro">
+          <p className="cha-mini-title">Les offres</p>
+          <h2>Choisir le bon niveau d&rsquo;accompagnement.</h2>
+          <p>
+            Cha construit des voyages personnalis&eacute;s selon votre rythme, vos envies
+            et le niveau de d&eacute;tail dont vous avez besoin.
+          </p>
+        </div>
 
-        <article>
-          <h3>&Eacute;vasion +</h3>
-          <p>5 jours et plus : carnet PDF et carte interactive selon formule.</p>
-        </article>
+        <div className="cha-offres-grid">
+          <article className="cha-offre-card">
+            <p className="cha-offre-label">Pour une escapade courte</p>
+            <h3>&Eacute;vasion express</h3>
+            <p>
+              Une proposition claire pour partir quelques jours sans passer des heures
+              &agrave; chercher les bonnes adresses.
+            </p>
+            <ul>
+              <li>2 &agrave; 5 jours</li>
+              <li>itin&eacute;raire personnalis&eacute;</li>
+              <li>PDF r&eacute;capitulatif</li>
+            </ul>
+          </article>
 
-        <article>
-          <h3>Options immersives</h3>
-          <p>Plong&eacute;e, danse, exp&eacute;riences locales, bonnes adresses.</p>
-        </article>
+          <article className="cha-offre-card featured">
+            <p className="cha-offre-label">Pour un voyage plus complet</p>
+            <h3>&Eacute;vasion +</h3>
+            <p>
+              Un accompagnement plus approfondi pour imaginer un voyage fluide,
+              immersif et vraiment adapt&eacute; &agrave; votre fa&ccedil;on de voyager.
+            </p>
+            <ul>
+              <li>5 jours et plus</li>
+              <li>carnet de voyage sur mesure</li>
+              <li>carte interactive selon formule</li>
+            </ul>
+          </article>
+
+          <article className="cha-offre-card">
+            <p className="cha-offre-label">Pour ajouter du vivant</p>
+            <h3>Options immersives</h3>
+            <p>
+              Des exp&eacute;riences choisies pour donner plus de profondeur au voyage :
+              rencontres, activit&eacute;s, lieux sensibles et adresses locales.
+            </p>
+            <ul>
+              <li>plong&eacute;e, danse, aventure douce</li>
+              <li>exp&eacute;riences locales</li>
+              <li>bonnes adresses cibl&eacute;es</li>
+            </ul>
+          </article>
+        </div>
+
+        <div className="cha-offres-note">
+          <strong>Cha pr&eacute;pare le terrain, vous gardez la main.</strong>
+          <span>
+            Les liens, contacts et recommandations vous sont transmis pour que vous
+            puissiez effectuer vos r&eacute;servations vous-m&ecirc;me, en toute libert&eacute;.
+          </span>
+        </div>
       </section>
 
       <section className="cha-note">
