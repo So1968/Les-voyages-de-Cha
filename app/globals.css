@@ -428,7 +428,7 @@ img {
   }
 }
 /* =====================================================
-   RÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©glage final : Bureau privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© derriÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨re le logo
+   RÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©glage final : Bureau privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© derriÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨re le logo
    ===================================================== */
 
 /* Le menu ne montre que les rubriques publiques */
@@ -443,7 +443,7 @@ img {
   display: none !important;
 }
 
-/* Le logo est la porte privÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©e, mais sans indication visible */
+/* Le logo est la porte privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e, mais sans indication visible */
 .cha-logo-wrap {
   width: 210px !important;
   display: flex !important;
@@ -462,7 +462,7 @@ img {
   object-fit: contain !important;
 }
 
-/* Header ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©quilibrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© */
+/* Header ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©quilibrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© */
 .cha-header {
   width: min(100%, 1360px) !important;
   height: 82px !important;
@@ -479,7 +479,7 @@ img {
   box-shadow: none !important;
 }
 
-/* Titre accueil ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  taille normale */
+/* Titre accueil ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  taille normale */
 .cha-title {
   width: min(100%, 1360px) !important;
   margin: 26px auto 38px !important;
@@ -490,7 +490,7 @@ img {
   line-height: 1.05 !important;
 }
 
-/* Trois blocs ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  bonne dimension */
+/* Trois blocs ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  bonne dimension */
 .cha-templates {
   width: min(100%, 1360px) !important;
   max-width: 1360px !important;
@@ -499,7 +499,7 @@ img {
   margin: 0 auto 92px !important;
 }
 
-/* Cartes plus grandes que la version mini, mais pas ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©normes */
+/* Cartes plus grandes que la version mini, mais pas ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©normes */
 .cha-card {
   min-height: 680px !important;
   padding: 42px 40px 34px !important;
@@ -526,13 +526,13 @@ img {
   width: min(100%, 1360px) !important;
 }
 
-/* SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©curitÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© : pas de dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©bordement horizontal */
+/* SÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©curitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© : pas de dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©bordement horizontal */
 html,
 body {
   overflow-x: hidden !important;
 }
 /* =====================================================
-   Section Offres ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â version vitrine premium
+   Section Offres ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â version vitrine premium
    ===================================================== */
 
 .cha-offres-section {
@@ -660,7 +660,7 @@ body {
   }
 }
 /* =====================================================
-   Offres Ã¢â‚¬â€ plus d'assurance, plus lisibles
+   Offres ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â plus d'assurance, plus lisibles
    ===================================================== */
 
 .cha-offres-section {
@@ -771,7 +771,7 @@ body {
   }
 }
 /* =====================================================
-   Ajustement fin section Offres : assurance sans dÃ©bordement
+   Ajustement fin section Offres : assurance sans dÃƒÂ©bordement
    ===================================================== */
 
 .cha-offres-section {
@@ -780,7 +780,7 @@ body {
   overflow: visible !important;
 }
 
-/* Le titre reste affirmÃ©, mais ne sort plus de la zone */
+/* Le titre reste affirmÃƒÂ©, mais ne sort plus de la zone */
 .cha-offres-intro h2 {
   font-size: clamp(36px, 3.35vw, 52px) !important;
   line-height: 1.08 !important;
@@ -789,7 +789,7 @@ body {
   margin-bottom: 22px !important;
 }
 
-/* Le paragraphe d'intro garde de la prÃ©sence sans Ã©touffer */
+/* Le paragraphe d'intro garde de la prÃƒÂ©sence sans ÃƒÂ©touffer */
 .cha-offres-intro p {
   font-size: 17px !important;
   line-height: 1.78 !important;
@@ -802,7 +802,7 @@ body {
   padding: 36px 34px !important;
 }
 
-/* Titres de cartes assurÃ©s mais moins massifs */
+/* Titres de cartes assurÃƒÂ©s mais moins massifs */
 .cha-offre-card h3 {
   font-size: clamp(32px, 2.45vw, 42px) !important;
   line-height: 1.04 !important;
@@ -818,7 +818,7 @@ body {
   font-size: 15.5px !important;
 }
 
-/* Rappel plus professionnel et plus assumÃ© */
+/* Rappel plus professionnel et plus assumÃƒÂ© */
 .cha-offres-note {
   max-width: 1040px !important;
   margin-top: 44px !important;
@@ -839,7 +839,7 @@ body {
   line-height: 1.78 !important;
 }
 /* =====================================================
-   Offres — coeur commercial du site
+   Offres â€” coeur commercial du site
    ===================================================== */
 
 .cha-offres-section {
@@ -1011,5 +1011,50 @@ body {
 
   .cha-offre-card h3 {
     font-size: clamp(36px, 7vw, 48px) !important;
+  }
+}
+/* =====================================================
+   Mélange de polices — signature émotionnelle Cha
+   ===================================================== */
+
+.cha-script-line {
+  display: block;
+  margin: -6px 0 24px;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(24px, 2vw, 34px);
+  line-height: 1.28;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--bleu);
+  opacity: 0.92;
+}
+
+.cha-offre-card h3 {
+  margin-bottom: 10px !important;
+}
+
+.cha-offre-promise {
+  margin-top: 0 !important;
+}
+
+/* Petite ligne bleue douce sous la phrase manuscrite */
+.cha-script-line::after {
+  content: "";
+  display: block;
+  width: 46%;
+  height: 2px;
+  margin-top: 10px;
+  border-radius: 999px;
+  background: var(--bleu-clair);
+  opacity: 0.82;
+}
+
+.cha-offre-card.featured .cha-script-line {
+  font-size: clamp(25px, 2.1vw, 36px);
+}
+
+@media (max-width: 1080px) {
+  .cha-script-line {
+    font-size: clamp(24px, 6vw, 32px);
   }
 }

@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -127,6 +127,7 @@ export default function Home() {
           <article className="cha-offre-card">
             <p className="cha-offre-label">Formule 01</p>
             <h3>&Eacute;vasion express</h3>
+            <span className="cha-script-line">pour quelques jours ailleurs</span>
             <p className="cha-offre-promise">Pour partir quelques jours avec une direction claire.</p>
             <p className="cha-offre-emotion">
               Cha cible l&rsquo;essentiel : un itin&eacute;raire coh&eacute;rent, des adresses choisies
@@ -142,6 +143,7 @@ export default function Home() {
           <article className="cha-offre-card featured">
             <p className="cha-offre-label">Formule signature</p>
             <h3>&Eacute;vasion +</h3>
+            <span className="cha-script-line">pour un voyage vraiment construit</span>
             <p className="cha-offre-promise">Pour construire un vrai voyage sur mesure.</p>
             <p className="cha-offre-emotion">
               Cha structure votre voyage dans le d&eacute;tail : rythme, &eacute;tapes, exp&eacute;riences,
@@ -157,6 +159,7 @@ export default function Home() {
           <article className="cha-offre-card">
             <p className="cha-offre-label">Options &agrave; composer</p>
             <h3>Exp&eacute;riences immersives</h3>
+            <span className="cha-script-line">pour vivre plus que visiter</span>
             <p className="cha-offre-promise">Pour ajouter du vivant, du local et du souvenir.</p>
             <p className="cha-offre-emotion">
               Cha enrichit votre voyage avec des exp&eacute;riences qui donnent du relief :
