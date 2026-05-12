@@ -1,37 +1,37 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="goldStroke" x1="160" y1="28" x2="160" y2="250" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#F4D9A8"/>
-      <stop offset="45%" stop-color="#D8AA63"/>
-      <stop offset="100%" stop-color="#B8843D"/>
+    <linearGradient id="goldStroke" x1="160" y1="36" x2="160" y2="286" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F3D9A6"/>
+      <stop offset="45%" stop-color="#D8AE68"/>
+      <stop offset="100%" stop-color="#B8863B"/>
     </linearGradient>
   </defs>
 
-  <!-- contour externe -->
+  <!-- contour principal -->
   <path
-    d="M160 42
-       C149 44 135 48 122 57
-       C106 68 91 83 79 103
-       C66 124 59 146 58 167
-       C57 190 64 210 77 226
-       C90 243 110 254 135 259
-       L185 259
-       C210 254 230 243 243 226
-       C256 210 263 190 262 167
-       C261 146 254 124 241 103
-       C229 83 214 68 198 57
-       C185 48 171 44 160 42"
+    d="M160 48
+       C147 50 133 56 119 66
+       C103 77 89 92 78 111
+       C66 131 60 152 60 173
+       C60 194 66 214 79 230
+       C92 246 111 258 135 265
+       H185
+       C209 258 228 246 241 230
+       C254 214 260 194 260 173
+       C260 152 254 131 242 111
+       C231 92 217 77 201 66
+       C187 56 173 50 160 48Z"
     stroke="url(#goldStroke)"
     stroke-width="8"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
-  <!-- base centrale -->
+  <!-- base -->
   <path
-    d="M144 259
-       C147 272 153 280 160 284
-       C167 280 173 272 176 259"
+    d="M144 265
+       C147 276 153 284 160 288
+       C167 284 173 276 176 265"
     stroke="url(#goldStroke)"
     stroke-width="8"
     stroke-linecap="round"
@@ -39,19 +39,19 @@
   />
 
   <!-- nervures -->
-  <path d="M160 54 L160 257" stroke="url(#goldStroke)" stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M148 56 C148 96 147 160 144 256" stroke="url(#goldStroke)" stroke-width="3.8" stroke-linecap="round"/>
-  <path d="M172 56 C172 96 173 160 176 256" stroke="url(#goldStroke)" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M160 58 L160 262" stroke="url(#goldStroke)" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M148 60 C148 102 147 170 144 260" stroke="url(#goldStroke)" stroke-width="3.7" stroke-linecap="round"/>
+  <path d="M172 60 C172 102 173 170 176 260" stroke="url(#goldStroke)" stroke-width="3.7" stroke-linecap="round"/>
 
-  <path d="M136 60 C134 100 131 166 128 252" stroke="url(#goldStroke)" stroke-width="3.4" stroke-linecap="round"/>
-  <path d="M184 60 C186 100 189 166 192 252" stroke="url(#goldStroke)" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M136 64 C134 106 131 176 128 256" stroke="url(#goldStroke)" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M184 64 C186 106 189 176 192 256" stroke="url(#goldStroke)" stroke-width="3.3" stroke-linecap="round"/>
 
-  <path d="M124 68 C118 106 112 172 108 245" stroke="url(#goldStroke)" stroke-width="3.2" stroke-linecap="round"/>
-  <path d="M196 68 C202 106 208 172 212 245" stroke="url(#goldStroke)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M123 72 C118 113 112 180 108 248" stroke="url(#goldStroke)" stroke-width="3.0" stroke-linecap="round"/>
+  <path d="M197 72 C202 113 208 180 212 248" stroke="url(#goldStroke)" stroke-width="3.0" stroke-linecap="round"/>
 
-  <path d="M111 79 C101 116 94 177 88 235" stroke="url(#goldStroke)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M209 79 C219 116 226 177 232 235" stroke="url(#goldStroke)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 84 C100 123 93 185 88 238" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M210 84 C220 123 227 185 232 238" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
 
-  <path d="M98 95 C84 131 77 180 71 220" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
-  <path d="M222 95 C236 131 243 180 249 220" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M97 100 C84 137 77 189 72 224" stroke="url(#goldStroke)" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M223 100 C236 137 243 189 248 224" stroke="url(#goldStroke)" stroke-width="2.6" stroke-linecap="round"/>
 </svg>
