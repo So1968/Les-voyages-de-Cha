@@ -583,7 +583,7 @@ header a[href="/bureau"] img {
   box-shadow: none !important;
   filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
 }
-/* EntrÃ©e Bureau : coquille bijou, sans rond */
+/* EntrÃƒÂ©e Bureau : coquille bijou, sans rond */
 .cha-shell-entry,
 .cha-conque-entry,
 header a[href="/bureau"] {
@@ -624,7 +624,7 @@ header a[href="/bureau"] img {
   overflow: visible !important;
 }
 /* =====================================================
-   Header harmonisé : entrée Bureau sous le logo
+   Header harmonisÃ© : entrÃ©e Bureau sous le logo
    ===================================================== */
 
 /* On neutralise totalement l'ancienne porte coquille */
@@ -635,7 +635,7 @@ header a[href="/bureau"] img[src*="conque-or"] {
   display: none !important;
 }
 
-/* Zone logo + petite entrée */
+/* Zone logo + petite entrÃ©e */
 .cha-logo-area {
   width: 210px;
   display: flex;
@@ -658,7 +658,7 @@ header a[href="/bureau"] img[src*="conque-or"] {
   object-fit: contain;
 }
 
-/* Entrée Bureau discrète, sous le logo */
+/* EntrÃ©e Bureau discrÃ¨te, sous le logo */
 .cha-bureau-entry {
   display: inline-flex;
   align-items: center;
@@ -678,7 +678,7 @@ header a[href="/bureau"] img[src*="conque-or"] {
   border-bottom-color: var(--bleu);
 }
 
-/* Header calmé et équilibré */
+/* Header calmÃ© et Ã©quilibrÃ© */
 .cha-header {
   height: 76px !important;
   min-height: 76px !important;
@@ -695,7 +695,7 @@ header a[href="/bureau"] img[src*="conque-or"] {
   gap: 38px;
 }
 
-/* Le bouton appel découverte devient moins tache bleue */
+/* Le bouton appel dÃ©couverte devient moins tache bleue */
 .cha-rdv {
   background: rgba(158, 198, 214, 0.54) !important;
   color: var(--bleu) !important;
@@ -712,7 +712,7 @@ header a[href="/bureau"] img[src*="conque-or"] {
   align-items: center;
 }
 
-/* Accueil : retour à une dimension plus posée */
+/* Accueil : retour Ã  une dimension plus posÃ©e */
 .cha-title h1 {
   font-size: clamp(54px, 5.2vw, 78px) !important;
 }
@@ -746,4 +746,50 @@ header a[href="/bureau"] img[src*="conque-or"] {
   .cha-bureau-entry {
     margin-left: 0;
   }
+}
+/* Header final : Bureau dans le menu, sans coquille */
+.cha-shell-entry,
+.cha-conque-entry,
+.cha-bureau-entry,
+header a[href="/bureau"] img[src*="conque"],
+header a[href="/bureau"] img[src*="conque-or"] {
+  display: none !important;
+}
+
+.cha-logo-wrap {
+  width: 190px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.cha-logo {
+  max-width: 154px !important;
+  max-height: 54px !important;
+  object-fit: contain !important;
+}
+
+.cha-nav {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 34px !important;
+}
+
+.cha-nav a[href="/bureau"] {
+  font-weight: 800;
+}
+
+.cha-header-actions {
+  width: 190px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.cha-rdv {
+  background: rgba(158, 198, 214, 0.52) !important;
+  color: var(--bleu) !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(30, 58, 71, 0.08) !important;
 }
