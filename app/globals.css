@@ -557,3 +557,29 @@ header a[href="/bureau"] img {
   box-shadow: none !important;
   filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
 }
+/* Coquille minimaliste : sans rond, plus lisible */
+.cha-shell-entry,
+.cha-conque-entry,
+header a[href="/bureau"] {
+  width: 90px !important;
+  height: 90px !important;
+  padding: 0 !important;
+  margin-left: 18px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.cha-shell-entry img,
+.cha-conque-entry img,
+header a[href="/bureau"] img {
+  width: 84px !important;
+  height: 84px !important;
+  object-fit: contain !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  filter: drop-shadow(0 3px 8px rgba(169, 118, 47, 0.16));
+}
