@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -112,65 +112,67 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="offres" className="cha-offres-section">
+      <section id="offres" className="cha-offres-section cha-offres-editorial">
         <div className="cha-offres-intro">
           <p className="cha-mini-title">Les offres</p>
-          <h2>Trois fa&ccedil;ons de confier votre projet de voyage &agrave; Cha.</h2>
+          <h2>Des voyages imagin&eacute;s avec douceur, pr&eacute;cision et intention.</h2>
           <p>
-            Chaque formule correspond &agrave; un niveau d&rsquo;accompagnement clair :
-            de l&rsquo;escapade cibl&eacute;e au voyage plus complet, Cha transforme vos envies
-            en itin&eacute;raire construit, lisible et pr&ecirc;t &agrave; vivre.
+            Cha vous aide &agrave; transformer une envie de d&eacute;part en projet clair,
+            beau et facile &agrave; s&rsquo;approprier. Chaque accompagnement garde la m&ecirc;me exigence :
+            du sur mesure, de l&rsquo;&eacute;coute et une vraie attention &agrave; votre fa&ccedil;on de voyager.
           </p>
         </div>
 
-        <div className="cha-offres-grid">
-          <article className="cha-offre-card">
-            <p className="cha-offre-label">Formule 01</p>
-            <h3>&Eacute;vasion express</h3>
-            <span className="cha-script-line">pour quelques jours ailleurs</span>
-            <p className="cha-offre-promise">Pour partir quelques jours avec une direction claire.</p>
-            <p className="cha-offre-emotion">
-              Cha cible l&rsquo;essentiel : un itin&eacute;raire coh&eacute;rent, des adresses choisies
-              et une vision simple de votre escapade, sans vous perdre dans des recherches interminables.
-            </p>
-            <div className="cha-offre-details">
-              <span>2 &agrave; 5 jours</span>
-              <span>itin&eacute;raire personnalis&eacute;</span>
-              <span>PDF clair, pratique et directement utilisable</span>
-            </div>
-          </article>
-
-          <article className="cha-offre-card featured">
+        <div className="cha-editorial-offers">
+          <article className="cha-editorial-main-offer">
             <p className="cha-offre-label">Formule signature</p>
             <h3>&Eacute;vasion +</h3>
             <span className="cha-script-line">pour un voyage vraiment construit</span>
-            <p className="cha-offre-promise">Pour construire un vrai voyage sur mesure.</p>
+            <p className="cha-offre-promise">
+              L&rsquo;accompagnement le plus complet pour cr&eacute;er un voyage sur mesure,
+              fluide, sensible et pr&ecirc;t &agrave; vivre.
+            </p>
             <p className="cha-offre-emotion">
-              Cha structure votre voyage dans le d&eacute;tail : rythme, &eacute;tapes, exp&eacute;riences,
-              bonnes adresses et rep&egrave;res utiles pour partir avec un projet solide et inspirant.
+              Cha structure votre itin&eacute;raire dans le d&eacute;tail : rythme, &eacute;tapes,
+              exp&eacute;riences, bonnes adresses, rep&egrave;res utiles et carte interactive
+              selon la formule choisie.
             </p>
             <div className="cha-offre-details">
               <span>5 jours et plus</span>
               <span>carnet de voyage personnalis&eacute;</span>
-              <span>carte interactive selon la formule choisie</span>
+              <span>carte interactive selon la formule</span>
             </div>
           </article>
 
-          <article className="cha-offre-card">
-            <p className="cha-offre-label">Options &agrave; composer</p>
-            <h3>Exp&eacute;riences immersives</h3>
-            <span className="cha-script-line">pour vivre plus que visiter</span>
-            <p className="cha-offre-promise">Pour ajouter du vivant, du local et du souvenir.</p>
-            <p className="cha-offre-emotion">
-              Cha enrichit votre voyage avec des exp&eacute;riences qui donnent du relief :
-              activit&eacute;s, rencontres, lieux sensibles, aventures douces et adresses qui restent.
-            </p>
-            <div className="cha-offre-details">
-              <span>plong&eacute;e, danse, aventure douce</span>
-              <span>exp&eacute;riences locales et culturelles</span>
-              <span>adresses cibl&eacute;es selon votre fa&ccedil;on de voyager</span>
-            </div>
-          </article>
+          <div className="cha-editorial-side-offers">
+            <article className="cha-editorial-soft-offer">
+              <p className="cha-offre-label">Escapade courte</p>
+              <h3>&Eacute;vasion express</h3>
+              <span className="cha-script-line">pour quelques jours ailleurs</span>
+              <p>
+                Une proposition claire et jolie pour partir quelques jours avec
+                une direction, des adresses choisies et un itin&eacute;raire simple &agrave; suivre.
+              </p>
+              <div className="cha-offre-details">
+                <span>2 &agrave; 5 jours</span>
+                <span>PDF clair et pratique</span>
+              </div>
+            </article>
+
+            <article className="cha-editorial-soft-offer">
+              <p className="cha-offre-label">Options &agrave; composer</p>
+              <h3>Exp&eacute;riences immersives</h3>
+              <span className="cha-script-line">pour vivre plus que visiter</span>
+              <p>
+                Des touches choisies pour donner du relief au voyage :
+                rencontres, activit&eacute;s, lieux sensibles, aventures douces et adresses locales.
+              </p>
+              <div className="cha-offre-details">
+                <span>plong&eacute;e, danse, aventure douce</span>
+                <span>exp&eacute;riences locales et culturelles</span>
+              </div>
+            </article>
+          </div>
         </div>
 
         <div className="cha-offres-note">
