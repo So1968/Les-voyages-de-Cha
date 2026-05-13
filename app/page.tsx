@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÂ¨s privÃƒÂ© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã‚Â¨s privÃƒÆ’Ã‚Â© au Bureau de Cha">
           <img src="/logo-officiel-cha.png" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
@@ -132,7 +132,7 @@ export default function Home() {
           </p>
 
           <p className="cha-manifeste-values">
-            AuthenticitÃƒÂ©. Partage. Bienveillance.
+            AuthenticitÃƒÆ’Ã‚Â©. Partage. Bienveillance.
           </p>
 
           <p>
