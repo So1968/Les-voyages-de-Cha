@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <main className="cha-page">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="Accès privé au Bureau de Cha">
-          <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
+        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÂ¨s privÃƒÂ© au Bureau de Cha">
+          <img src="/logo-officiel-cha.png" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
         <nav className="cha-nav">
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           <div className="cha-card-bottom">
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
+            <img src="/logo-officiel-cha.png" alt="Les Voyages de Cha" />
             <p>Des voyages qui se <strong>vivent.</strong></p>
           </div>
         </article>
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
 
           <div className="cha-card-bottom center">
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
+            <img src="/logo-officiel-cha.png" alt="Les Voyages de Cha" />
           </div>
         </article>
 
@@ -94,7 +94,7 @@ export default function Home() {
 
             <p className="cha-hand">On en parle&nbsp;?</p>
 
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
+            <img src="/logo-officiel-cha.png" alt="Les Voyages de Cha" />
           </div>
         </article>
       </section>
@@ -132,7 +132,7 @@ export default function Home() {
           </p>
 
           <p className="cha-manifeste-values">
-            Authenticité. Partage. Bienveillance.
+            AuthenticitÃƒÂ©. Partage. Bienveillance.
           </p>
 
           <p>

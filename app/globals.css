@@ -557,3 +557,23 @@ img {
     min-height: 580px;
   }
 }
+/* Logo officiel extrait de la charte */
+.cha-logo-wrap {
+  width: 230px !important;
+}
+
+.cha-logo {
+  max-width: 190px !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+}
+/* Logo officiel extrait de la charte */
+.cha-logo-wrap {
+  width: 230px !important;
+}
+
+.cha-logo {
+  max-width: 190px !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+}
