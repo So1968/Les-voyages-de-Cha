@@ -1,194 +1,143 @@
+const navItems = [
+  { label: "Accueil", href: "#accueil" },
+  { label: "Qui je suis", href: "#qui-je-suis" },
+  { label: "Mes accompagnements", href: "#accompagnements" },
+  { label: "Comment ça fonctionne", href: "#fonctionnement" },
+  { label: "Destinations", href: "#destinations" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
+
+const footerExplorer = [
+  "Accueil",
+  "Qui je suis",
+  "Mes accompagnements",
+  "Comment ça fonctionne",
+  "Destinations",
+  "FAQ",
+  "Contact",
+];
+
 export default function Home() {
   return (
-    <main className="cha-page">
+    <main className="cha-site" id="accueil">
       <header className="cha-header">
-        <a href="/bureau" className="cha-logo-wrap" aria-label="AccÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s privÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© au Bureau de Cha">
+        <a href="/bureau" className="cha-logo-link" aria-label="Accès privé au Bureau de Cha">
           <img src="/logo-cha.svg" alt="Les Voyages de Cha" className="cha-logo" />
         </a>
 
-        <nav className="cha-nav">
-          <a href="#accueil">Accueil</a>
-          <a href="#approche">Approche</a>
-          <a href="#offres">Offres</a>
+        <nav className="cha-nav" aria-label="Navigation principale">
+          {navItems.map((item) => (
+            <a href={item.href} key={item.label}>{item.label}</a>
+          ))}
         </nav>
 
-        <div className="cha-header-actions">
-          <a href="#contact" className="cha-rdv">Appel d&eacute;couverte</a>
-        </div>
+        <a href="#contact" className="cha-button cha-header-button">
+          Réserver un appel découverte <span>♥</span>
+        </a>
       </header>
 
-      <section id="accueil" className="cha-title">
-        <h1>Les Voyages de Cha</h1>
-      </section>
-
-      <section className="cha-templates">
-        <article className="cha-card cha-card-photo-left">
-          <div className="cha-card-main">
-            <h2>
-              Tu n&rsquo;as pas besoin d&rsquo;aller loin
-              <span>pour te sentir ailleurs.</span>
-            </h2>
-            <div className="cha-line" />
+      <section className="cha-hero" aria-label="Page d'accueil Les Voyages de Cha">
+        <div className="hero-left">
+          <div className="hero-stamp hero-stamp-left">Échapper<br />& explorer</div>
+          <div className="hero-leaf hero-leaf-left" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
           </div>
-
-          <div className="cha-card-bottom">
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
-            <p>Des voyages qui se <strong>vivent.</strong></p>
+          <div className="hero-photo-card">
+            <img src="/hero-cha.png" alt="Vue méditerranéenne vers la mer" className="hero-photo" />
           </div>
-        </article>
-
-        <article className="cha-card cha-card-clean">
-          <div className="cha-card-main">
-            <h2>
-              Voyagez autrement,
-              <span>vivez intens&eacute;ment.</span>
-            </h2>
-            <div className="cha-line" />
-          </div>
-
-          <div className="cha-expertise">
-            <div>
-              <span>1</span>
-              <p>
-                <strong>Des exp&eacute;riences locales</strong>
-                Rencontrer, &eacute;changer, comprendre.
-              </p>
-            </div>
-
-            <div>
-              <span>2</span>
-              <p>
-                <strong>Des voyages sur-mesure</strong>
-                Pens&eacute;s pour vous, dans les moindres d&eacute;tails.
-              </p>
-            </div>
-
-            <div>
-              <span>3</span>
-              <p>
-                <strong>Une approche humaine</strong>
-                &Agrave; votre &eacute;coute, avant, pendant et apr&egrave;s le voyage.
-              </p>
-            </div>
-          </div>
-
-          <div className="cha-card-bottom center">
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
-          </div>
-        </article>
-
-        <article className="cha-card cha-card-photo-right">
-          <div className="cha-inner">
-            <h2>
-              Et si ton prochain voyage
-              <span>te ressemblait vraiment&nbsp;?</span>
-            </h2>
-
-            <div className="cha-line" />
-
-            <p className="cha-projection">
-              Un voyage con&ccedil;u
-              <br />
-              <strong>pour toi.</strong>
-            </p>
-
-            <p className="cha-hand">On en parle&nbsp;?</p>
-
-            <img src="/logo-cha.svg" alt="Les Voyages de Cha" />
-          </div>
-        </article>
-      </section>
-
-      <section id="approche" className="cha-section cha-approche">
-        <div>
-          <p className="cha-mini-title">L&rsquo;approche de Cha</p>
-          <h2>Doux, clair, humain. Jamais catalogue.</h2>
+          <div className="hero-plane-line" aria-hidden="true">⌁ ⌁ ⌁ ✈</div>
         </div>
 
-        <p>
-          Cha imagine des voyages sur mesure, immersifs et &eacute;motionnels.
-          Apr&egrave;s 16 ans comme charg&eacute;e de patrimoine, elle garde une vraie culture
-          du conseil, de l&rsquo;&eacute;coute, de la relation client et du suivi.
-        </p>
-      </section>
+        <div className="hero-right">
+          <div className="hero-postmark" aria-hidden="true">
+            <span>LET'S GO</span>
+            <span>SOMEWHERE</span>
+            <span>BEAUTIFUL</span>
+          </div>
 
-      <section id="offres" className="cha-offres-section cha-offres-editorial">
-        <div className="cha-offres-intro">
-          <p className="cha-mini-title">Les offres</p>
-          <h2>Des voyages imagin&eacute;s avec douceur, pr&eacute;cision et intention.</h2>
-          <p>
-            Cha vous aide &agrave; transformer une envie de d&eacute;part en projet clair,
-            beau et facile &agrave; s&rsquo;approprier. Chaque accompagnement garde la m&ecirc;me exigence :
-            du sur mesure, de l&rsquo;&eacute;coute et une vraie attention &agrave; votre fa&ccedil;on de voyager.
+          <div className="hero-blue-leaf" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+
+          <h1>
+            Voyagez<br />
+            autrement,<br />
+            <span>vivez intensément.</span>
+          </h1>
+
+          <div className="hero-separator" aria-hidden="true">♡</div>
+
+          <p className="hero-intro">
+            Des voyages sur-mesure,<br />
+            <span>créés avec vous pour vous !</span>
           </p>
+
+          <a href="#contact" className="cha-button hero-button">
+            Réserver un appel découverte <span>♥</span>
+          </a>
+
+          <div className="hero-polaroid" aria-hidden="true">
+            <img src="/hero-cha.png" alt="" />
+          </div>
+
+          <div className="hero-small-stamp" aria-hidden="true">Voyager<br />c'est<br />vivre</div>
+          <div className="hero-bottom-line" aria-hidden="true">♡</div>
         </div>
+      </section>
 
-        <div className="cha-editorial-offers">
-          <article className="cha-editorial-main-offer">
-            <p className="cha-offre-label">Formule signature</p>
-            <h3>&Eacute;vasion +</h3>
-            <span className="cha-script-line">pour un voyage vraiment construit</span>
-            <p className="cha-offre-promise">
-              L&rsquo;accompagnement le plus complet pour cr&eacute;er un voyage sur mesure,
-              fluide, sensible et pr&ecirc;t &agrave; vivre.
+      <footer className="cha-footer" id="contact">
+        <div className="footer-content">
+          <div className="footer-brand">
+            <p className="footer-logo">Les Voyages de Cha <span>♥</span></p>
+            <p>
+              Créatrice de voyages sur-mesure pour des expériences uniques,
+              authentiques et inoubliables.
             </p>
-            <p className="cha-offre-emotion">
-              Cha structure votre itin&eacute;raire dans le d&eacute;tail : rythme, &eacute;tapes,
-              exp&eacute;riences, bonnes adresses, rep&egrave;res utiles et carte interactive
-              selon la formule choisie.
-            </p>
-            <div className="cha-offre-details">
-              <span>5 jours et plus</span>
-              <span>carnet de voyage personnalis&eacute;</span>
-              <span>carte interactive selon la formule</span>
+            <div className="footer-socials" aria-label="Réseaux sociaux">
+              <a href="#contact" aria-label="Instagram">◎</a>
+              <a href="#contact" aria-label="Pinterest">𝑷</a>
+              <a href="mailto:contact@lesvoyagesdecha.fr" aria-label="Email">✉</a>
             </div>
-          </article>
+          </div>
 
-          <div className="cha-editorial-side-offers">
-            <article className="cha-editorial-soft-offer">
-              <p className="cha-offre-label">Escapade courte</p>
-              <h3>&Eacute;vasion express</h3>
-              <span className="cha-script-line">pour quelques jours ailleurs</span>
-              <p>
-                Une proposition claire et jolie pour partir quelques jours avec
-                une direction, des adresses choisies et un itin&eacute;raire simple &agrave; suivre.
-              </p>
-              <div className="cha-offre-details">
-                <span>2 &agrave; 5 jours</span>
-                <span>PDF clair et pratique</span>
-              </div>
-            </article>
+          <div className="footer-column">
+            <h2>Explorer</h2>
+            {footerExplorer.map((item) => (
+              <a href="#accueil" key={item}>{item}</a>
+            ))}
+          </div>
 
-            <article className="cha-editorial-soft-offer">
-              <p className="cha-offre-label">Options &agrave; composer</p>
-              <h3>Exp&eacute;riences immersives</h3>
-              <span className="cha-script-line">pour vivre plus que visiter</span>
-              <p>
-                Des touches choisies pour donner du relief au voyage :
-                rencontres, activit&eacute;s, lieux sensibles, aventures douces et adresses locales.
-              </p>
-              <div className="cha-offre-details">
-                <span>plong&eacute;e, danse, aventure douce</span>
-                <span>exp&eacute;riences locales et culturelles</span>
-              </div>
-            </article>
+          <div className="footer-column">
+            <h2>En savoir plus</h2>
+            <a href="/travel-planner">Qu'est-ce qu'un Travel Planner ?</a>
+            <a href="/temoignages">Vos témoignages</a>
+            <a href="#contact">Réserver un appel découverte</a>
+          </div>
+
+          <div className="footer-column">
+            <h2>Informations légales</h2>
+            <a href="/mentions-legales">Mentions légales</a>
+            <a href="/politique-confidentialite">Politique de confidentialité</a>
+            <a href="/cgv">CGV</a>
+          </div>
+
+          <div className="footer-contact">
+            <h2>Restons connectés</h2>
+            <p className="footer-script">Par ici les rêves... ♡</p>
+            <a href="mailto:contact@lesvoyagesdecha.fr">contact@lesvoyagesdecha.fr</a>
+            <div className="footer-blue-leaf" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
           </div>
         </div>
 
-        <div className="cha-offres-note">
-          <p>
-            <strong>Cha con&ccedil;oit votre voyage, vous restez libre de le r&eacute;server.</strong>
-            Son r&ocirc;le est de construire un itin&eacute;raire clair, personnalis&eacute; et pr&ecirc;t &agrave; utiliser :
-            liens, contacts, adresses, activit&eacute;s et recommandations cibl&eacute;es. Les r&eacute;servations,
-            paiements, confirmations, modifications ou annulations sont ensuite effectu&eacute;s directement
-            par le client, aupr&egrave;s des prestataires concern&eacute;s.
-          </p>
+        <div className="footer-bottom">
+          <span>♡</span>
+          <p>© 2025 Les Voyages de Cha · Tous droits réservés</p>
+          <p>Conception avec passion ♡</p>
         </div>
-      </section>
-
-      <section id="contact" className="cha-band">
-        Voyagez autrement, vivez intens&eacute;ment
-      </section>
+      </footer>
     </main>
   );
 }
